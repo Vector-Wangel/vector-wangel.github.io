@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rice Robot$\Pi$ Lab</title>
+    <link>https://vector-wangel.github.io/wowchemy_website/</link>
+      <atom:link href="https://vector-wangel.github.io/wowchemy_website/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rice Robot$\Pi$ Lab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vector-wangel.github.io/wowchemy_website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Rice Robot$\Pi$ Lab</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/</link>
+    </image>
+    
+    <item>
+      <title>Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/pod/</link>
+      <pubDate>Fri, 28 Jul 2023 17:55:21 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/pod/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>National Science Foundation CAREER Award</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/national-science-foundation-career-award/</link>
+      <pubDate>Thu, 29 Jun 2023 22:08:14 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/national-science-foundation-career-award/</guid>
+      <description>&lt;p&gt;Kaiyu Hang has won a &lt;a href=&#34;https://news.rice.edu/news/2023/rice-us-kaiyu-hang-wins-nsf-career-award&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Science Foundation CAREER Award&lt;/a&gt; to develop robots that can physically interact with the world through compliance- and motion-based manipulation funnels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</link>
+      <pubDate>Wed, 28 Jun 2023 17:55:21 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/self-supervised-unseen-object-instance-segmentation-via-long-term-robot-interaction/</link>
+      <pubDate>Wed, 28 Jun 2023 17:02:54 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/self-supervised-unseen-object-instance-segmentation-via-long-term-robot-interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation&#34; has been accepted by IEEE/RSJ IROS</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/paper-non-parametric-self-identification-and-model-predictive-control-of-dexterous-in-hand-manipulation-has-been-accepted-by-ieee-rsj-iros/</link>
+      <pubDate>Wed, 21 Jun 2023 22:10:07 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/paper-non-parametric-self-identification-and-model-predictive-control-of-dexterous-in-hand-manipulation-has-been-accepted-by-ieee-rsj-iros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2307.10033&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation&amp;rdquo; &lt;/a&gt;has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS). Check out the &lt;a href=&#34;https://youtu.be/4FQ2193q1kk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>&#34;Compliant Robot Manipulation: Challenges and New Opportunities&#34; Workshop</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/event/example/</link>
+      <pubDate>Wed, 10 May 2023 13:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/event/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Robust, dexterous manipulation in unstructured environments remains a research problem for those working in both academia and industry. Encapsulating a plethora of potential use cases—from logistics-based packing problems to human-robot service settings—the interactions between a robot and its environment are often difficult to plan and execute precisely, as there will always be some degree of uncertainty in the model of the robot or its environment. This uncertainty has historically elicited conflict within the robot’s internal control schema, as it required both positions and forces of the actuators to be balanced appropriately as to satisfy task requirements.  System compliance—either in a software-based or a hardware-based solution—has been largely the key to enabling a robot to overcome such environmental or system-modeling uncertainties. This inherent adaptability in the robot’s kinematic structure can generally simplify planning and control of the robot, which has in turn enabled fundamental advancements in robot manipulation. In this workshop, we will explore the state-of-the in compliance-enabled robot manipulation on numerous fronts. Panelists and speakers will discuss how compliance, and other similar paradigms, have changed formulations and processes for planning, control, design, sensing, learning, optimization, etc. for such robot systems. &lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>TEROS</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/event/teros/</link>
+      <pubDate>Fri, 14 Apr 2023 12:00:42 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/event/teros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;The Texas Regional Robotics Symposium (TEROS) aims to bring together Texas robotics researchers. TEROS is a one-day event with research talks, poster presentations, and social activities. The goal of TEROS is to share exciting ideas and build new connections in the robotics research community in Texas.&lt;/p&gt;
+&lt;p&gt;After the success of its &lt;a href=&#34;https://teros-texas.github.io/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;first edition&lt;/a&gt; at the University of Texas at Austin, the second edition of TEROS is coming to Houston. We are excited to announce that TEROS 2023 will be held on &lt;strong&gt;April 14, 2023&lt;/strong&gt; at Rice University&amp;rsquo;s BioScience Research Collaborative (BRC). We are proud to share that, similar to its first edition, this event is free for attendees. The event will be held in-person only and the tickets are limited, so please register at the earliest. We look forward to seeing you soon in Houston.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&#34; accepted by RSS 2023</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Thu, 02 Mar 2023 06:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.03793&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&amp;rdquo; &lt;/a&gt;has been accepted by Robotics: Science and Systems (RSS 2023). Check out the &lt;a href=&#34;https://youtu.be/_ykvsRAXRT0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop on &#34;Compliant Robot Manipulation: Challenges and New Opportunities&#34; in IEEE-RAS ICRA 2023</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/workshop-on-compliant-robot-manipulation-challenges-and-new-opportunities-in-ieee-ras-icra-2023/</link>
+      <pubDate>Thu, 22 Dec 2022 23:11:32 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/workshop-on-compliant-robot-manipulation-challenges-and-new-opportunities-in-ieee-ras-icra-2023/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;In IEEE-RAS ICRA 2023, we will organize the second workshop on &lt;strong&gt;&amp;ldquo;Compliant Robot Manipulation: Challenges and New Opportunities&amp;rdquo;&lt;/strong&gt;. Distinguished speakers from both academia and industry will join to share their brilliant research progress and throughts. Poster contributions with oral presentation opportunities will be an important part of the workshop. Please read more details &lt;a href=&#34;https://sites.google.com/yale.edu/icra2023-compliantmanipulation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here &lt;/a&gt;.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Join</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/join/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/join/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/tour/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Object Perception</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/active/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/active/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Improving the robot capability of object visual understanding by shifting the traditional robot perception paradigm from “wait-to-observe” to “seek-to-observe” through closing the loop between uncertainty-aware perception and robot exploratory manipulation.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rearrangement-Based Manipulation via Kinodynamic Planning and Dynamic Planning Horizons</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/conference-paper/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/conference-paper/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2208.02312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Complex In-Hand Manipulation via Compliance-Enabled Finger Gaiting and Multi-Modal Planning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/journal-article/</link>
+      <pubDate>Fri, 04 Mar 2022 01:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/journal-article/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Self-Identification selected by Science Robotics as the Top 5 Editor&#39;s Picks of 2021</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/robot-self-identification-selected-by-science-robotics-as-the-top-5-editors-picks-of-2021/</link>
+      <pubDate>Fri, 17 Dec 2021 23:13:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/robot-self-identification-selected-by-science-robotics-as-the-top-5-editors-picks-of-2021/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our work on &lt;a href=&#34;https://hangkaiyu.github.io/self-identification.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robot Self-Identification &lt;/a&gt;has been selected by Science Robotics as the &lt;strong&gt;Top 5 Editor&amp;rsquo;s Picks of 2021&lt;/strong&gt;! Read &lt;a href=&#34;https://sci.scientific-direct.net/view_online.asp?1728038&amp;amp;c0c33e0cc4c44232&amp;amp;18&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here &lt;/a&gt;.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Active Surface-based Compliant Robot Hands</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/hand/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/hand/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Dexterous in-hand manipulation without lifting a finger using a class of novel compliant robot hands featured by active surfaces.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nonprehensile Manipulation through Forest-based Planning with Dynamic Planning Horizons</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/example/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exploring Robust Robot Manipulation through Compliance-Based and Motion-based Manipulation Funnels</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/funnel/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/funnel/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We investigate “manipulation funnels”, which effectively converge complex manipulation states towards strictly smaller subsets, to provide robust manipulation against various uncertainties, as well as creating new manipulation possibilities that were traditionally infeasible.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Self-Identification for Robot Manipulation under Uncertainty Aided by Passive Adaptability</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/teros/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/teros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Combining modern state estimation techniques with specialized adaptable robot hardware to enable online discovery and updating of manipulation “controllers” that require minimal sensing and are highly robust to uncertainty.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Herding by Caging: A Formation-Based Motion Planning Framework for Guiding Mobile Agents</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</link>
+      <pubDate>Wed, 11 Aug 2021 20:31:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Manipulation for self-Identification, and self-Identification for better manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/manipulation-for-self-identification-and-self-identification-for-better-manipulation/</link>
+      <pubDate>Tue, 11 May 2021 18:51:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/manipulation-for-self-identification-and-self-identification-for-better-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&#34; accepted by IEEE-RAS ICRA</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&amp;rdquo; &lt;/a&gt;has been accepted by IEEE-RAS International Conference on Robotics and Automation (IEEE-RAS ICRA).  Check out the &lt;a href=&#34;https://youtu.be/xf6N-a95YKQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking In-Hand Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-in-hand-manipulation/</link>
+      <pubDate>Tue, 11 Aug 2020 20:40:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Cluttered Robot Pick-and-Place Manipulation with the Box and Blocks Test</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-cluttered-robot-pick-and-place-manipulation-with-the-box-and-blocks-test/</link>
+      <pubDate>Tue, 11 Aug 2020 20:38:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-cluttered-robot-pick-and-place-manipulation-with-the-box-and-blocks-test/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calculating the Support Function of Complex Continuous Surfaces With Applications to Minimum Distance Computation and Optimal Grasp Planning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/calculating-the-support-function-of-complex-continuous-surfaces-with-applications-to-minimum-distance-computation-and-optimal-grasp-planning/</link>
+      <pubDate>Tue, 11 Aug 2020 20:36:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/calculating-the-support-function-of-complex-continuous-surfaces-with-applications-to-minimum-distance-computation-and-optimal-grasp-planning/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object-Agnostic Dexterous Manipulation of Partially Constrained Trajectories</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/object-agnostic-dexterous-manipulation-of-partially-constrained-trajectories/</link>
+      <pubDate>Tue, 11 Aug 2020 20:34:36 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/object-agnostic-dexterous-manipulation-of-partially-constrained-trajectories/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Object Rearrangement with Monte Carlo Tree Search: A Case Study on Planar Nonprehensile Sorting</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</link>
+      <pubDate>Sun, 28 Jun 2020 21:32:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning in Topology-based Representation for Human Body Movement with Whole Arm Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</link>
+      <pubDate>Mon, 12 Aug 2019 21:17:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Nonprehensile Rearrangement with Deep Reinforcement Learning and Simulation-to-Reality Transfer</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</link>
+      <pubDate>Sun, 11 Aug 2019 20:52:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pre-Grasp Sliding Manipulation of Thin Objects Using Soft, Compliant, or Underactuated Hands</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/pre-grasp-sliding/</link>
+      <pubDate>Sun, 11 Aug 2019 20:50:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/pre-grasp-sliding/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hand-object configuration estimation using particle filters for dexterous in-hand manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/hand-object-configuration-estimation-using-particle-filters-for-dexterous-in-hand-manipulation/</link>
+      <pubDate>Sun, 11 Aug 2019 20:45:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/hand-object-configuration-estimation-using-particle-filters-for-dexterous-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Protocol for Grasp Planning Algorithms</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-protocol-for-grasp-planning-algorithms/</link>
+      <pubDate>Sun, 11 Aug 2019 20:41:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/benchmarking-protocol-for-grasp-planning-algorithms/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Energy Gradient-Based Graphs for Planning Within-Hand Caging Manipulation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/energy-gradient-based-graphs-for-planning-within-hand-caging-manipulation/</link>
+      <pubDate>Sun, 30 Jun 2019 18:34:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/energy-gradient-based-graphs-for-planning-within-hand-caging-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pre-Grasp Sliding Manipulation of Thin Objects Using Soft, Compliant, or Underactuated Hands</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/pre-grasp-sliding-manipulation-of-thin-objects-using-soft-compliant-or-underactuated-hands/</link>
+      <pubDate>Sat, 29 Jun 2019 03:27:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/pre-grasp-sliding-manipulation-of-thin-objects-using-soft-compliant-or-underactuated-hands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Placing Objects with prior In-Hand Manipulation using Dexterous Manipulation Graphs</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 29 Jun 2019 03:25:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dual-Arm In-Hand Manipulation Using Visual Feedback</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</link>
+      <pubDate>Sat, 29 Jun 2019 03:23:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Placement Planning and Optimization for Robot Manipulators</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/object-placement-planning-and-optimization-for-robot-manipulators/</link>
+      <pubDate>Fri, 28 Jun 2019 22:44:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/object-placement-planning-and-optimization-for-robot-manipulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Data-Driven Framework for Learning Dexterous Manipulation of Unknown Objects</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/a-data-driven-framework-for-learning-dexterous-manipulation-of-unknown-objects/</link>
+      <pubDate>Fri, 28 Jun 2019 22:41:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/a-data-driven-framework-for-learning-dexterous-manipulation-of-unknown-objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perching and resting -- A paradigm for UAV maneuvering with modularized landing gears</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</link>
+      <pubDate>Mon, 11 Mar 2019 20:46:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fingertip Surface Optimization for Robust Grasping on Contact Primitives</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/fingertip-surface/</link>
+      <pubDate>Sat, 11 Aug 2018 20:53:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/fingertip-surface/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fingertip Surface Optimization for Robust Grasping on Contact Primitives</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/fingertip-surface-optimization-for-robust-grasping-on-contact-primitives/</link>
+      <pubDate>Sat, 30 Jun 2018 18:52:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/fingertip-surface-optimization-for-robust-grasping-on-contact-primitives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rearrangement with Nonprehensile Manipulation Using Deep Reinforcement Learning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/rearrangement-with-nonprehensile-manipulation-using-deep-reinforcement-learning/</link>
+      <pubDate>Sat, 30 Jun 2018 18:51:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/rearrangement-with-nonprehensile-manipulation-using-deep-reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous Manipulation Graphs</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 30 Jun 2018 18:37:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Path Planning for Within-Hand Manipulation over Learned Representations of Safe States</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/path-planning-for-within-hand-manipulation-over-learned-representations-of-safe-states/</link>
+      <pubDate>Sat, 30 Jun 2018 18:36:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/path-planning-for-within-hand-manipulation-over-learned-representations-of-safe-states/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Framework For Optimal Grasp Contact Planning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/a-framework/</link>
+      <pubDate>Fri, 11 Aug 2017 20:54:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/a-framework/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Framework For Optimal Grasp Contact Planning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/a-framework-for-optimal-grasp-contact-planning/</link>
+      <pubDate>Fri, 30 Jun 2017 18:57:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/a-framework-for-optimal-grasp-contact-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Motion and Hierarchical Fingertip Grasp Planning</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</link>
+      <pubDate>Fri, 30 Jun 2017 18:55:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herding by Caging: A Topological Approach towards Guiding Moving Agents via Mobile Robots</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</link>
+      <pubDate>Fri, 30 Jun 2017 18:54:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous Grasping under Shape Uncertainty</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-grasping-under-shape-uncertainty/</link>
+      <pubDate>Thu, 11 Aug 2016 20:58:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/dexterous-grasping-under-shape-uncertainty/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space: A Unified Framework for Grasp Planning and In-Hand Grasp Adaptation</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</link>
+      <pubDate>Thu, 11 Aug 2016 20:56:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Evolution of Fingertip Grasping Manifolds</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/on-the-evolution-of-fingertip-grasping-manifolds/</link>
+      <pubDate>Thu, 30 Jun 2016 18:58:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/on-the-evolution-of-fingertip-grasping-manifolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combinatorial Optimization for Hierarchical Contact-level Grasping</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</link>
+      <pubDate>Mon, 30 Jun 2014 19:02:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space for Multi-fingered Precision Grasping</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/hierarchical-fingertip-space-for-multi-fingered-precision-grasping/</link>
+      <pubDate>Mon, 30 Jun 2014 19:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/hierarchical-fingertip-space-for-multi-fingered-precision-grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasp Moduli Spaces</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/grasp-moduli-spaces/</link>
+      <pubDate>Sun, 30 Jun 2013 19:04:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/grasp-moduli-spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friction Coefficients and Grasp Synthesis</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/friction-coefficients-and-grasp-synthesis/</link>
+      <pubDate>Sun, 30 Jun 2013 19:03:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/friction-coefficients-and-grasp-synthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Generalization for 3D Object Categorization with Global Structure Histograms</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/publication/improving-generalization-for-3d-object-categorization-with-global-structure-histograms/</link>
+      <pubDate>Sat, 30 Jun 2012 19:06:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/publication/improving-generalization-for-3d-object-categorization-with-global-structure-histograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vector-wangel.github.io/wowchemy_website/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
