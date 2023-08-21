@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Events | Rice Robot$\Pi$ Lab</title>
+    <link>https://vector-wangel.github.io/wowchemy_website/projects/</link>
+      <atom:link href="https://vector-wangel.github.io/wowchemy_website/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Events</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://vector-wangel.github.io/wowchemy_website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/</link>
+    </image>
+    
+    <item>
+      <title>Interactive Object Perception</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/active/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/active/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Improving the robot capability of object visual understanding by shifting the traditional robot perception paradigm from “wait-to-observe” to “seek-to-observe” through closing the loop between uncertainty-aware perception and robot exploratory manipulation.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Active Surface-based Compliant Robot Hands</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/hand/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/hand/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Dexterous in-hand manipulation without lifting a finger using a class of novel compliant robot hands featured by active surfaces.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nonprehensile Manipulation through Forest-based Planning with Dynamic Planning Horizons</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/example/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exploring Robust Robot Manipulation through Compliance-Based and Motion-based Manipulation Funnels</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/funnel/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/funnel/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We investigate “manipulation funnels”, which effectively converge complex manipulation states towards strictly smaller subsets, to provide robust manipulation against various uncertainties, as well as creating new manipulation possibilities that were traditionally infeasible.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Self-Identification for Robot Manipulation under Uncertainty Aided by Passive Adaptability</title>
+      <link>https://vector-wangel.github.io/wowchemy_website/projects/teros/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://vector-wangel.github.io/wowchemy_website/projects/teros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Combining modern state estimation techniques with specialized adaptable robot hardware to enable online discovery and updating of manipulation “controllers” that require minimal sensing and are highly robust to uncertainty.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
