@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Y. Wang | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/michael-y.-wang/</link>
+      <atom:link href="https://robotpilab.github.io/author/michael-y.-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Y. Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 20:31:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Michael Y. Wang</title>
+      <link>https://robotpilab.github.io/author/michael-y.-wang/</link>
+    </image>
+    
+    <item>
+      <title>Herding by Caging: A Formation-Based Motion Planning Framework for Guiding Mobile Agents</title>
+      <link>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</link>
+      <pubDate>Wed, 11 Aug 2021 20:31:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Object Rearrangement with Monte Carlo Tree Search: A Case Study on Planar Nonprehensile Sorting</title>
+      <link>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</link>
+      <pubDate>Sun, 28 Jun 2020 21:32:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning in Topology-based Representation for Human Body Movement with Whole Arm Manipulation</title>
+      <link>https://robotpilab.github.io/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</link>
+      <pubDate>Mon, 12 Aug 2019 21:17:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Nonprehensile Rearrangement with Deep Reinforcement Learning and Simulation-to-Reality Transfer</title>
+      <link>https://robotpilab.github.io/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</link>
+      <pubDate>Sun, 11 Aug 2019 20:52:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fingertip Surface Optimization for Robust Grasping on Contact Primitives</title>
+      <link>https://robotpilab.github.io/publication/fingertip-surface/</link>
+      <pubDate>Sat, 11 Aug 2018 20:53:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/fingertip-surface/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fingertip Surface Optimization for Robust Grasping on Contact Primitives</title>
+      <link>https://robotpilab.github.io/publication/fingertip-surface-optimization-for-robust-grasping-on-contact-primitives/</link>
+      <pubDate>Sat, 30 Jun 2018 18:52:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/fingertip-surface-optimization-for-robust-grasping-on-contact-primitives/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

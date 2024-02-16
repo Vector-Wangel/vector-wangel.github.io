@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bowen Wen | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/bowen-wen/</link>
+      <atom:link href="https://robotpilab.github.io/author/bowen-wen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bowen Wen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2022 01:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Bowen Wen</title>
+      <link>https://robotpilab.github.io/author/bowen-wen/</link>
+    </image>
+    
+    <item>
+      <title>Complex In-Hand Manipulation via Compliance-Enabled Finger Gaiting and Multi-Modal Planning</title>
+      <link>https://robotpilab.github.io/publication/journal-article/</link>
+      <pubDate>Fri, 04 Mar 2022 01:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/journal-article/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

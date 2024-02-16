@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Events | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/event/</link>
+      <atom:link href="https://robotpilab.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Events</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 May 2023 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>https://robotpilab.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>&#34;Compliant Robot Manipulation: Challenges and New Opportunities&#34; Workshop</title>
+      <link>https://robotpilab.github.io/event/example/</link>
+      <pubDate>Wed, 10 May 2023 13:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/event/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Robust, dexterous manipulation in unstructured environments remains a research problem for those working in both academia and industry. Encapsulating a plethora of potential use cases—from logistics-based packing problems to human-robot service settings—the interactions between a robot and its environment are often difficult to plan and execute precisely, as there will always be some degree of uncertainty in the model of the robot or its environment. This uncertainty has historically elicited conflict within the robot’s internal control schema, as it required both positions and forces of the actuators to be balanced appropriately as to satisfy task requirements.  System compliance—either in a software-based or a hardware-based solution—has been largely the key to enabling a robot to overcome such environmental or system-modeling uncertainties. This inherent adaptability in the robot’s kinematic structure can generally simplify planning and control of the robot, which has in turn enabled fundamental advancements in robot manipulation. In this workshop, we will explore the state-of-the in compliance-enabled robot manipulation on numerous fronts. Panelists and speakers will discuss how compliance, and other similar paradigms, have changed formulations and processes for planning, control, design, sensing, learning, optimization, etc. for such robot systems. &lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>TEROS</title>
+      <link>https://robotpilab.github.io/event/teros/</link>
+      <pubDate>Fri, 14 Apr 2023 12:00:42 +0000</pubDate>
+      <guid>https://robotpilab.github.io/event/teros/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;The Texas Regional Robotics Symposium (TEROS) aims to bring together Texas robotics researchers. TEROS is a one-day event with research talks, poster presentations, and social activities. The goal of TEROS is to share exciting ideas and build new connections in the robotics research community in Texas.&lt;/p&gt;
+&lt;p&gt;After the success of its &lt;a href=&#34;https://teros-texas.github.io/2022/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;first edition&lt;/a&gt; at the University of Texas at Austin, the second edition of TEROS is coming to Houston. We are excited to announce that TEROS 2023 will be held on &lt;strong&gt;April 14, 2023&lt;/strong&gt; at Rice University&amp;rsquo;s BioScience Research Collaborative (BRC). We are proud to share that, similar to its first edition, this event is free for attendees. The event will be held in-person only and the tickets are limited, so please register at the earliest. We look forward to seeing you soon in Houston.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

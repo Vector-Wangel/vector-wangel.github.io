@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danica Kragic | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/danica-kragic/</link>
+      <atom:link href="https://robotpilab.github.io/author/danica-kragic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Danica Kragic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 20:31:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Danica Kragic</title>
+      <link>https://robotpilab.github.io/author/danica-kragic/</link>
+    </image>
+    
+    <item>
+      <title>Herding by Caging: A Formation-Based Motion Planning Framework for Guiding Mobile Agents</title>
+      <link>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</link>
+      <pubDate>Wed, 11 Aug 2021 20:31:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking In-Hand Manipulation</title>
+      <link>https://robotpilab.github.io/publication/benchmarking-in-hand-manipulation/</link>
+      <pubDate>Tue, 11 Aug 2020 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/benchmarking-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-Object Rearrangement with Monte Carlo Tree Search: A Case Study on Planar Nonprehensile Sorting</title>
+      <link>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</link>
+      <pubDate>Sun, 28 Jun 2020 21:32:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning in Topology-based Representation for Human Body Movement with Whole Arm Manipulation</title>
+      <link>https://robotpilab.github.io/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</link>
+      <pubDate>Mon, 12 Aug 2019 21:17:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/reinforcement-learning-in-topology-based-representation-for-human-body-movement-with-whole-arm-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Nonprehensile Rearrangement with Deep Reinforcement Learning and Simulation-to-Reality Transfer</title>
+      <link>https://robotpilab.github.io/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</link>
+      <pubDate>Sun, 11 Aug 2019 20:52:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/end-to-end-nonprehensile-rearrangement-with-deep-reinforcement-learning-and-simulation-to-reality-transfer/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dual-Arm In-Hand Manipulation Using Visual Feedback</title>
+      <link>https://robotpilab.github.io/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</link>
+      <pubDate>Sat, 29 Jun 2019 03:23:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/dual-arm-in-hand-manipulation-using-visual-feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Placement Planning and Optimization for Robot Manipulators</title>
+      <link>https://robotpilab.github.io/publication/object-placement-planning-and-optimization-for-robot-manipulators/</link>
+      <pubDate>Fri, 28 Jun 2019 22:44:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/object-placement-planning-and-optimization-for-robot-manipulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perching and resting -- A paradigm for UAV maneuvering with modularized landing gears</title>
+      <link>https://robotpilab.github.io/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</link>
+      <pubDate>Mon, 11 Mar 2019 20:46:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/perching-and-resting-a-paradigm-for-uav-maneuvering-with-modularized-landing-gears/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rearrangement with Nonprehensile Manipulation Using Deep Reinforcement Learning</title>
+      <link>https://robotpilab.github.io/publication/rearrangement-with-nonprehensile-manipulation-using-deep-reinforcement-learning/</link>
+      <pubDate>Sat, 30 Jun 2018 18:51:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/rearrangement-with-nonprehensile-manipulation-using-deep-reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous Manipulation Graphs</title>
+      <link>https://robotpilab.github.io/publication/dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 30 Jun 2018 18:37:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Framework For Optimal Grasp Contact Planning</title>
+      <link>https://robotpilab.github.io/publication/a-framework/</link>
+      <pubDate>Fri, 11 Aug 2017 20:54:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/a-framework/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Framework For Optimal Grasp Contact Planning</title>
+      <link>https://robotpilab.github.io/publication/a-framework-for-optimal-grasp-contact-planning/</link>
+      <pubDate>Fri, 30 Jun 2017 18:57:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/a-framework-for-optimal-grasp-contact-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herding by Caging: A Topological Approach towards Guiding Moving Agents via Mobile Robots</title>
+      <link>https://robotpilab.github.io/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</link>
+      <pubDate>Fri, 30 Jun 2017 18:54:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dexterous Grasping under Shape Uncertainty</title>
+      <link>https://robotpilab.github.io/publication/dexterous-grasping-under-shape-uncertainty/</link>
+      <pubDate>Thu, 11 Aug 2016 20:58:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/dexterous-grasping-under-shape-uncertainty/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space: A Unified Framework for Grasp Planning and In-Hand Grasp Adaptation</title>
+      <link>https://robotpilab.github.io/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</link>
+      <pubDate>Thu, 11 Aug 2016 20:56:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the Evolution of Fingertip Grasping Manifolds</title>
+      <link>https://robotpilab.github.io/publication/on-the-evolution-of-fingertip-grasping-manifolds/</link>
+      <pubDate>Thu, 30 Jun 2016 18:58:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/on-the-evolution-of-fingertip-grasping-manifolds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combinatorial Optimization for Hierarchical Contact-level Grasping</title>
+      <link>https://robotpilab.github.io/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</link>
+      <pubDate>Mon, 30 Jun 2014 19:02:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space for Multi-fingered Precision Grasping</title>
+      <link>https://robotpilab.github.io/publication/hierarchical-fingertip-space-for-multi-fingered-precision-grasping/</link>
+      <pubDate>Mon, 30 Jun 2014 19:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/hierarchical-fingertip-space-for-multi-fingered-precision-grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasp Moduli Spaces</title>
+      <link>https://robotpilab.github.io/publication/grasp-moduli-spaces/</link>
+      <pubDate>Sun, 30 Jun 2013 19:04:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/grasp-moduli-spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friction Coefficients and Grasp Synthesis</title>
+      <link>https://robotpilab.github.io/publication/friction-coefficients-and-grasp-synthesis/</link>
+      <pubDate>Sun, 30 Jun 2013 19:03:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/friction-coefficients-and-grasp-synthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Generalization for 3D Object Categorization with Global Structure Histograms</title>
+      <link>https://robotpilab.github.io/publication/improving-generalization-for-3d-object-categorization-with-global-structure-histograms/</link>
+      <pubDate>Sat, 30 Jun 2012 19:06:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/improving-generalization-for-3d-object-categorization-with-global-structure-histograms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

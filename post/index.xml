@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/post/</link>
+      <atom:link href="https://robotpilab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jun 2023 22:08:14 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Latest News</title>
+      <link>https://robotpilab.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>National Science Foundation CAREER Award</title>
+      <link>https://robotpilab.github.io/post/national-science-foundation-career-award/</link>
+      <pubDate>Thu, 29 Jun 2023 22:08:14 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/national-science-foundation-career-award/</guid>
+      <description>&lt;p&gt;Kaiyu Hang has won a &lt;a href=&#34;https://news.rice.edu/news/2023/rice-us-kaiyu-hang-wins-nsf-career-award&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Science Foundation CAREER Award&lt;/a&gt; to develop robots that can physically interact with the world through compliance- and motion-based manipulation funnels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rice CS team helps robots rearrange objects without gripping them</title>
+      <link>https://robotpilab.github.io/post/kejia-ren/</link>
+      <pubDate>Thu, 22 Jun 2023 22:08:14 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/kejia-ren/</guid>
+      <description>&lt;p&gt;Rice University Computer Scientists presented research on &lt;a href=&#34;https://csweb.rice.edu/news/rice-cs-team-helps-robots-rearrange-objects-without-gripping-them&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;enabling robots to rearrange objects without grasping them&lt;/a&gt; at the 2023 International Conference on Robotics and Automation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation&#34; has been accepted by IEEE/RSJ IROS</title>
+      <link>https://robotpilab.github.io/post/paper-non-parametric-self-identification/</link>
+      <pubDate>Wed, 21 Jun 2023 22:10:07 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/paper-non-parametric-self-identification/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2307.10033&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Non-Parametric Self-Identification and Model Predictive Control of Dexterous In-Hand Manipulation&amp;rdquo; &lt;/a&gt;has been accepted by IEEE/RSJ IEEE International Conference on Intelligent Robots and Systems (IEEE/RSJ IROS). Check out the &lt;a href=&#34;https://youtu.be/4FQ2193q1kk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&#34; accepted by RSS 2023</title>
+      <link>https://robotpilab.github.io/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Thu, 02 Mar 2023 06:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.03793&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Self-Supervised Unseen Object Instance Segmentation via Long-Term Robot Interaction&amp;rdquo; &lt;/a&gt;has been accepted by Robotics: Science and Systems (RSS 2023). Check out the &lt;a href=&#34;https://youtu.be/_ykvsRAXRT0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop on &#34;Compliant Robot Manipulation: Challenges and New Opportunities&#34; in IEEE-RAS ICRA 2023</title>
+      <link>https://robotpilab.github.io/post/workshop-on-compliant-robot-manipulation-challenges-and-new-opportunities-in-ieee-ras-icra-2023/</link>
+      <pubDate>Thu, 22 Dec 2022 23:11:32 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/workshop-on-compliant-robot-manipulation-challenges-and-new-opportunities-in-ieee-ras-icra-2023/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;In IEEE-RAS ICRA 2023, we will organize the second workshop on &lt;strong&gt;&amp;ldquo;Compliant Robot Manipulation: Challenges and New Opportunities&amp;rdquo;&lt;/strong&gt;. Distinguished speakers from both academia and industry will join to share their brilliant research progress and throughts. Poster contributions with oral presentation opportunities will be an important part of the workshop. Please read more details &lt;a href=&#34;https://sites.google.com/yale.edu/icra2023-compliantmanipulation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here &lt;/a&gt;.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Our Paper &#34;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&#34; accepted by IEEE-RAS ICRA</title>
+      <link>https://robotpilab.github.io/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our paper &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation&amp;rdquo; &lt;/a&gt;has been accepted by IEEE-RAS International Conference on Robotics and Automation (IEEE-RAS ICRA).  Check out the &lt;a href=&#34;https://youtu.be/xf6N-a95YKQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt;!&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robot Self-Identification selected by Science Robotics as the Top 5 Editor&#39;s Picks of 2021</title>
+      <link>https://robotpilab.github.io/post/robot-self-identification-selected-by-science-robotics-as-the-top-5-editors-picks-of-2021/</link>
+      <pubDate>Fri, 17 Dec 2021 23:13:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/post/robot-self-identification-selected-by-science-robotics-as-the-top-5-editors-picks-of-2021/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Our work on &lt;a href=&#34;https://hangkaiyu.github.io/self-identification.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robot Self-Identification &lt;/a&gt;has been selected by Science Robotics as the &lt;strong&gt;Top 5 Editor&amp;rsquo;s Picks of 2021&lt;/strong&gt;! Read &lt;a href=&#34;https://sci.scientific-direct.net/view_online.asp?1728038&amp;amp;c0c33e0cc4c44232&amp;amp;18&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here &lt;/a&gt;.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fangming Cheng | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/fangming-cheng/</link>
+      <atom:link href="https://robotpilab.github.io/author/fangming-cheng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fangming Cheng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://robotpilab.github.io/author/fangming-cheng/avatar_hucc2d9de4b0df1339b5093e95d36ff768_77900_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Fangming Cheng</title>
+      <link>https://robotpilab.github.io/author/fangming-cheng/</link>
+    </image>
+    
+  </channel>
+</rss>

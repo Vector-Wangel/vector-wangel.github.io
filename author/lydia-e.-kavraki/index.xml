@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lydia E. Kavraki | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/lydia-e.-kavraki/</link>
+      <atom:link href="https://robotpilab.github.io/author/lydia-e.-kavraki/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lydia E. Kavraki</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 Jun 2023 17:55:21 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Lydia E. Kavraki</title>
+      <link>https://robotpilab.github.io/author/lydia-e.-kavraki/</link>
+    </image>
+    
+    <item>
+      <title>Kinodynamic Rapidly-exploring Random Forest for Rearrangement-Based Nonprehensile Manipulation</title>
+      <link>https://robotpilab.github.io/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</link>
+      <pubDate>Wed, 28 Jun 2023 17:55:21 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/kinodynamic-rapidly-exploring-random-forest-for-rearrangement-based-nonprehensile-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2302.04360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rearrangement-Based Manipulation via Kinodynamic Planning and Dynamic Planning Horizons</title>
+      <link>https://robotpilab.github.io/publication/conference-paper/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/conference-paper/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://arxiv.org/abs/2208.02312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

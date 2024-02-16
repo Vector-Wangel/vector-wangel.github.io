@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Florian T. Pokorny | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/florian-t.-pokorny/</link>
+      <atom:link href="https://robotpilab.github.io/author/florian-t.-pokorny/index.xml" rel="self" type="application/rss+xml" />
+    <description>Florian T. Pokorny</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 20:31:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Florian T. Pokorny</title>
+      <link>https://robotpilab.github.io/author/florian-t.-pokorny/</link>
+    </image>
+    
+    <item>
+      <title>Herding by Caging: A Formation-Based Motion Planning Framework for Guiding Mobile Agents</title>
+      <link>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</link>
+      <pubDate>Wed, 11 Aug 2021 20:31:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/herding-by-caging-a-formation-based-motion-planning-framework-for-guiding-mobile-agents/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Herding by Caging: A Topological Approach towards Guiding Moving Agents via Mobile Robots</title>
+      <link>https://robotpilab.github.io/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</link>
+      <pubDate>Fri, 30 Jun 2017 18:54:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/herding-by-caging-a-topological-approach-towards-guiding-moving-agents-via-mobile-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Fingertip Space: A Unified Framework for Grasp Planning and In-Hand Grasp Adaptation</title>
+      <link>https://robotpilab.github.io/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</link>
+      <pubDate>Thu, 11 Aug 2016 20:56:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/hierarchical-fingertip-space-a-unified-framework-for-grasp-planning-and-in-hand-grasp-adaptation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combinatorial Optimization for Hierarchical Contact-level Grasping</title>
+      <link>https://robotpilab.github.io/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</link>
+      <pubDate>Mon, 30 Jun 2014 19:02:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/combinatorial-optimization-for-hierarchical-contact-level-grasping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grasp Moduli Spaces</title>
+      <link>https://robotpilab.github.io/publication/grasp-moduli-spaces/</link>
+      <pubDate>Sun, 30 Jun 2013 19:04:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/grasp-moduli-spaces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friction Coefficients and Grasp Synthesis</title>
+      <link>https://robotpilab.github.io/publication/friction-coefficients-and-grasp-synthesis/</link>
+      <pubDate>Sun, 30 Jun 2013 19:03:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/friction-coefficients-and-grasp-synthesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

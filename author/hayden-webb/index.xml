@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hayden Webb | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/hayden-webb/</link>
+      <atom:link href="https://robotpilab.github.io/author/hayden-webb/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hayden Webb</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/author/hayden-webb/avatar_hu0fe0a0af54fa1eec7d31d97d5a0b18e5_1708017_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Hayden Webb</title>
+      <link>https://robotpilab.github.io/author/hayden-webb/</link>
+    </image>
+    
+    <item>
+      <title>Active Surface-based Compliant Robot Hands</title>
+      <link>https://robotpilab.github.io/projects/hand/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/hand/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Dexterous in-hand manipulation without lifting a finger using a class of novel compliant robot hands featured by active surfaces.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

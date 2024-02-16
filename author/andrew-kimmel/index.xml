@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew Kimmel | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/andrew-kimmel/</link>
+      <atom:link href="https://robotpilab.github.io/author/andrew-kimmel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrew Kimmel</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Jun 2018 18:36:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Andrew Kimmel</title>
+      <link>https://robotpilab.github.io/author/andrew-kimmel/</link>
+    </image>
+    
+    <item>
+      <title>Path Planning for Within-Hand Manipulation over Learned Representations of Safe States</title>
+      <link>https://robotpilab.github.io/publication/path-planning-for-within-hand-manipulation-over-learned-representations-of-safe-states/</link>
+      <pubDate>Sat, 30 Jun 2018 18:36:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/path-planning-for-within-hand-manipulation-over-learned-representations-of-safe-states/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

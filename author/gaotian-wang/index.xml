@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaotian Wang | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/gaotian-wang/</link>
+      <atom:link href="https://robotpilab.github.io/author/gaotian-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gaotian Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/author/gaotian-wang/avatar_hubf012131a8cc98a9a04b73d085ba58b0_382585_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Gaotian Wang</title>
+      <link>https://robotpilab.github.io/author/gaotian-wang/</link>
+    </image>
+    
+    <item>
+      <title>Nonprehensile Manipulation through Forest-based Planning with Dynamic Planning Horizons</title>
+      <link>https://robotpilab.github.io/projects/example/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/example/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Enabling multi-modal robot nonprehensile manipulation by concurrently building multiple motion trees and adaptively switching between them.&lt;/p&gt;
+&lt;!--EndFragment--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Robust Robot Manipulation through Compliance-Based and Motion-based Manipulation Funnels</title>
+      <link>https://robotpilab.github.io/projects/funnel/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/funnel/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;We investigate “manipulation funnels”, which effectively converge complex manipulation states towards strictly smaller subsets, to provide robust manipulation against various uncertainties, as well as creating new manipulation possibilities that were traditionally infeasible.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
