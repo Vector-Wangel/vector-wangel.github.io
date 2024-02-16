@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Walter G. Bircher | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/walter-g.-bircher/</link>
+      <atom:link href="https://robotpilab.github.io/author/walter-g.-bircher/index.xml" rel="self" type="application/rss+xml" />
+    <description>Walter G. Bircher</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 May 2021 18:51:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Walter G. Bircher</title>
+      <link>https://robotpilab.github.io/author/walter-g.-bircher/</link>
+    </image>
+    
+    <item>
+      <title>Manipulation for self-Identification, and self-Identification for better manipulation</title>
+      <link>https://robotpilab.github.io/publication/manipulation-for-self-identification-and-self-identification-for-better-manipulation/</link>
+      <pubDate>Tue, 11 May 2021 18:51:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/manipulation-for-self-identification-and-self-identification-for-better-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Cluttered Robot Pick-and-Place Manipulation with the Box and Blocks Test</title>
+      <link>https://robotpilab.github.io/publication/benchmarking-cluttered-robot-pick-and-place-manipulation-with-the-box-and-blocks-test/</link>
+      <pubDate>Tue, 11 Aug 2020 20:38:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/benchmarking-cluttered-robot-pick-and-place-manipulation-with-the-box-and-blocks-test/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hand-object configuration estimation using particle filters for dexterous in-hand manipulation</title>
+      <link>https://robotpilab.github.io/publication/hand-object-configuration-estimation-using-particle-filters-for-dexterous-in-hand-manipulation/</link>
+      <pubDate>Sun, 11 Aug 2019 20:45:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/hand-object-configuration-estimation-using-particle-filters-for-dexterous-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Energy Gradient-Based Graphs for Planning Within-Hand Caging Manipulation</title>
+      <link>https://robotpilab.github.io/publication/energy-gradient-based-graphs-for-planning-within-hand-caging-manipulation/</link>
+      <pubDate>Sun, 30 Jun 2019 18:34:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/energy-gradient-based-graphs-for-planning-within-hand-caging-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Data-Driven Framework for Learning Dexterous Manipulation of Unknown Objects</title>
+      <link>https://robotpilab.github.io/publication/a-data-driven-framework-for-learning-dexterous-manipulation-of-unknown-objects/</link>
+      <pubDate>Fri, 28 Jun 2019 22:41:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/a-data-driven-framework-for-learning-dexterous-manipulation-of-unknown-objects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

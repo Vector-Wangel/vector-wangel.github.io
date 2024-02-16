@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balakumar Sundaralingam | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/balakumar-sundaralingam/</link>
+      <atom:link href="https://robotpilab.github.io/author/balakumar-sundaralingam/index.xml" rel="self" type="application/rss+xml" />
+    <description>Balakumar Sundaralingam</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 20:40:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Balakumar Sundaralingam</title>
+      <link>https://robotpilab.github.io/author/balakumar-sundaralingam/</link>
+    </image>
+    
+    <item>
+      <title>Benchmarking In-Hand Manipulation</title>
+      <link>https://robotpilab.github.io/publication/benchmarking-in-hand-manipulation/</link>
+      <pubDate>Tue, 11 Aug 2020 20:40:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/benchmarking-in-hand-manipulation/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

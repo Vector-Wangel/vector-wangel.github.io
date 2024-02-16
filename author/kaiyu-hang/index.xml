@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaiyu Hang | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/kaiyu-hang/</link>
+      <atom:link href="https://robotpilab.github.io/author/kaiyu-hang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kaiyu Hang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://robotpilab.github.io/author/kaiyu-hang/avatar_hu65f8ec313bd5e1379bdbdec1b0eeb7ab_372747_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Kaiyu Hang</title>
+      <link>https://robotpilab.github.io/author/kaiyu-hang/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaiyu Hang and Danica Kragic | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/kaiyu-hang-and-danica-kragic/</link>
+      <atom:link href="https://robotpilab.github.io/author/kaiyu-hang-and-danica-kragic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kaiyu Hang and Danica Kragic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 Jun 2019 03:25:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Kaiyu Hang and Danica Kragic</title>
+      <link>https://robotpilab.github.io/author/kaiyu-hang-and-danica-kragic/</link>
+    </image>
+    
+    <item>
+      <title>Placing Objects with prior In-Hand Manipulation using Dexterous Manipulation Graphs</title>
+      <link>https://robotpilab.github.io/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 29 Jun 2019 03:25:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Motion and Hierarchical Fingertip Grasp Planning</title>
+      <link>https://robotpilab.github.io/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</link>
+      <pubDate>Fri, 30 Jun 2017 18:55:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

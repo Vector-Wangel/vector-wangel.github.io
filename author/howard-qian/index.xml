@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howard Qian | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/howard-qian/</link>
+      <atom:link href="https://robotpilab.github.io/author/howard-qian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Howard Qian</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/author/howard-qian/avatar_hu0c20818187bcb9221a8dbadb2828b901_1028070_270x270_fill_lanczos_center_3.png</url>
+      <title>Howard Qian</title>
+      <link>https://robotpilab.github.io/author/howard-qian/</link>
+    </image>
+    
+    <item>
+      <title>Interactive Object Perception</title>
+      <link>https://robotpilab.github.io/projects/active/</link>
+      <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/projects/active/</guid>
+      <description>&lt;!--StartFragment--&gt;
+&lt;p&gt;Improving the robot capability of object visual understanding by shifting the traditional robot perception paradigm from “wait-to-observe” to “seek-to-observe” through closing the loop between uncertainty-aware perception and robot exploratory manipulation.&lt;/p&gt;
+&lt;!--EndFragment--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

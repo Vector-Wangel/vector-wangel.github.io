@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joshua A. Haustein | Rice RobotΠ Lab</title>
+    <link>https://robotpilab.github.io/author/joshua-a.-haustein/</link>
+      <atom:link href="https://robotpilab.github.io/author/joshua-a.-haustein/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joshua A. Haustein</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jun 2020 21:32:00 +0000</lastBuildDate>
+    <image>
+      <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
+      <title>Joshua A. Haustein</title>
+      <link>https://robotpilab.github.io/author/joshua-a.-haustein/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Object Rearrangement with Monte Carlo Tree Search: A Case Study on Planar Nonprehensile Sorting</title>
+      <link>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</link>
+      <pubDate>Sun, 28 Jun 2020 21:32:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/multi-object-rearrangement-with-monte-carlo-tree-search-a-case-study-on-planar-nonprehensile-sorting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Placing Objects with prior In-Hand Manipulation using Dexterous Manipulation Graphs</title>
+      <link>https://robotpilab.github.io/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</link>
+      <pubDate>Sat, 29 Jun 2019 03:25:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/placing-objects-with-prior-in-hand-manipulation-using-dexterous-manipulation-graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Placement Planning and Optimization for Robot Manipulators</title>
+      <link>https://robotpilab.github.io/publication/object-placement-planning-and-optimization-for-robot-manipulators/</link>
+      <pubDate>Fri, 28 Jun 2019 22:44:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/object-placement-planning-and-optimization-for-robot-manipulators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Motion and Hierarchical Fingertip Grasp Planning</title>
+      <link>https://robotpilab.github.io/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</link>
+      <pubDate>Fri, 30 Jun 2017 18:55:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/integrating-motion-and-hierarchical-fingertip-grasp-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Evolution of Fingertip Grasping Manifolds</title>
+      <link>https://robotpilab.github.io/publication/on-the-evolution-of-fingertip-grasping-manifolds/</link>
+      <pubDate>Thu, 30 Jun 2016 18:58:00 +0000</pubDate>
+      <guid>https://robotpilab.github.io/publication/on-the-evolution-of-fingertip-grasping-manifolds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
