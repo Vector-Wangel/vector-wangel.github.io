@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaotian Wang&#39;s Homepage</title>
+    <title>Gaotian Wang</title>
     <link>https://robotpilab.github.io/</link>
       <atom:link href="https://robotpilab.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Gaotian Wang&#39;s Homepage</description>
+    <description>Gaotian Wang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://robotpilab.github.io/media/icon_hu741267303ece0b55432a717ce280a15e_5637_512x512_fill_lanczos_center_3.png</url>
-      <title>Gaotian Wang&#39;s Homepage</title>
+      <title>Gaotian Wang</title>
       <link>https://robotpilab.github.io/</link>
     </image>
     
