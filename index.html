@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600i" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
         <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
+        <link rel="icon" href="🦾">
         <style>
          #sticky-sidebar {
              position:fixed;
@@ -95,8 +95,12 @@
                         <a class="nav-link" href="#teaching"><i class="fa fa-chalkboard"></i> Teaching</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#Hobbies"><i class="fa fa-mountain"></i> Hobbies</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://robotpilab.github.io/"><i class="fa fa-robot"></i> Lab</a>
                     </li>
+                    
                 </ul>
             </div>
         </nav>
@@ -108,19 +112,19 @@
                     <div style="padding: 10px">
                         <p>
                             I am a graduate student at Rice University, focusing on robot manipulation and planning 
-                            in the <a href="https://robotpilab.github.io/">Robot&Pi; lab</a>, managed by Professor 
+                            in the <a href="https://robotpilab.github.io/">Robot&Pi; lab</a>, under the direction of Professor 
                             <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a>. 
-                            My primary interest lies in complex task and motion planning problems. 
-                            I am keen on developing Large Language and Multi-Modal Models in robotics. 
-                            My ultimate goal is to develop a capable and robust robot that can not only perform known 
-                            tasks perfectly but also handle novel situations appropriately.
                         </p>
+                        
                         <p>
-                            I enjoy working out, going on road trips, cooking</a>.
+                            My recent interest lies in planning problems, where we propse virtual cage and funnels to solve manipulation tasks under different uncertainties.
+                            I am also interested in building robot skill-set for the intergration of Large Language and Multi-Modal Models to reach the ultimate household robots. 
+                            
                         </p>
-                        <!-- <p>
-                            More details can be found in my <a href="cv_kingston.pdf">curriculum vitae <i class="fa fa-file-pdf"></i></a>.
-                        </p> -->
+                        
+                        <p>
+                            More details can be found in my <a href="Gaotian_Wang_CV.pdf">curriculum vitae <i class="fa fa-file-pdf"></i></a>.
+                        </p>
                     </div>
                     <hr>
                     <a class="anchor" id="news"></a>
@@ -129,26 +133,16 @@
                     <dl>
                         <dt>ICRA 2024</dt>
                             <dd>
-                                <p>I had two papers accepted to ICRA 2024! Please take a look at: 
+                                <p>I had two papers accepted to ICRA 2024. Please take a look at: 
                                     <ul>
-                                        <li><a href="#wang_kinematic_nodate">Kinematic Modeling and Control of a Soft Robotic Arm</a> with <a href="https://scholar.google.com/citations?user=VRPyvDAAAAAJ&hl=en">Zhanchi Wang</a></li>
-                                        
+                                        <li><a href="#wang_kinematic_nodate">Kinematic Modeling and Control of a Soft Robotic Arm</a> with <a href="https://scholar.google.com/citations?user=VRPyvDAAAAAJ&hl=en">Zhanchi Wang</a> which establishes a soft robotic arm representation that are capable of capturing non-constant curvature deformations.</li>
+                                        <li><a href="#qian_riseg_nodate">Robot Interactive Object Segmentation</a> with <a href="https://www.linkedin.com/in/howard-qian/">Howard Qian</a> which uses robot interaction to correct inaccurate segmentation.</li>
                                     </ul>
                                      
                                     
                                 </p>
                             </dd>
-                        <dt>🤖 Robotic Task Planning in Collaboration with <a href="https://www.houstonmethodist.org/">Methodist</a></dt>
-                            <dd>
-                                <p>I am actively engaged in a project dedicated to the development of constrained planning strategies 
-                                    for robotics, under the guidance of Professors <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a> and <a href="https://profiles.rice.edu/faculty/lydia-e-kavraki">Lydia Kavraki</a> and in collaboration with Methodist.</p>
-                            </dd>
-                        <dt>🥳 <a href="https://engineering.lehigh.edu/news/article/lehigh-student-team-wins-f1tenth-virtual-race-icra-2022">1st Price on International Autonomous Racing Competition</a></dt>
-                            <dd>
-                                <p> I led a team of four members to victory in <a href="https://f1tenth.org/">F1TENTH Competition Head-to-Head Race</a>. 
-                                    The event was part of the 10th F1TENTH Autonomous Grand Prix, held May 23-27, 
-                                    in conjunction with the 2022 International Conference on Robotics and Automation (ICRA 2022) in Philadelphia. </p>
-                            </dd>
+                        
                     </dl>
                     </div>
                     <hr>
@@ -228,29 +222,41 @@
                             <div class="row">
                                 <!-- Project Column -->
                                 <div class="col-md-6">
-                                    <dt>Ongoing: Multi-Arm Constrainted Task and Motion Planning</dt>
+                                    <dt style="font-size: 1.12em;">UNO Push: Unified Nonprehensile Object Pushing</dt>
+                                    <dt style="font-size: 1.12em;">via Non-Parametric Estimation and MPC</dt>
                                     <ul>
-                                        <li>Designing a high level coordinator to speed up multi-arm planning tasks</li>
+                                        <li>A unified framework that addresses system modeling, action generation, and control of precise pushing all through non-parametric estimation.</li>
+                                        <li>System transition models built through a small number of exploratory actions.</li>
+                                        <li>Enable precise pushing manipulation with imprecisely approximated system models which are continuously updated in the unified framework.</li>
                                     </ul>
                                 </div>
                                 <!-- Video Column -->
                                 <div class="col-md-6">
-                                    <video width="320" height="240" controls>
-                                        <source src="videos/2.mp4" type="video/mp4">
+                                    <video width="360" height="270" controls>
+                                        <source src="videos/UNO_Push.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
                             </div>
-                            <dt>Caging in Time</dt>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                            <dt>UNO Push: </dt>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                            <div class="row">
+                                <!-- Project Column -->
+                                <div class="col-md-6">
+                                    <dt style="font-size: 1.12em;">Caging in Time for Robust Object Manipulation </dt>
+                                    <dt style="font-size: 1.12em;"> and a Case Study on Planar Pushing</dt>
+                                    <ul>
+                                        <li>A system motion model that predicts the propagation of the Potential Configuration Set over time and an algorithm that can generate robot motions to construct caging-configurations in time for robust manipulation that can be modeled for general manipulation systems.</li>
+                                        <li>Instantiated on a planar pushing problem where manipulation tasks can be robustly executed in an open-loop manner without physical and geometric properties of the object known a priori</li>
+                                    </ul>
+                                </div>
+                                <!-- Video Column -->
+                                <div class="col-md-6">
+                                    <img src   = "images/122.gif"
+                                     class = "img-fluid full-width"
+                                     style = "box-shadow: 2px 4px 4px 0px"
+                                     alt   = "A picture of me from February 2022.">
+                                </div>
+                            </div>
+                            
                         </dl>
                     </div>
                     <hr>
@@ -309,6 +315,40 @@
                             
                             <dl class="row">
                                 <h3 class="col-lg-12 col-xl-1">2024</h3>
+                                
+                                <dt class="col-1" style="text-align:right;">C4.</dt>
+                                <dd class="col-md-11 col-xl-10">
+                                    <p>
+                                        <a class="anchor" id="qian_riseg_nodate"></a>
+                                        <font class="title">RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</font>
+                                        <br>
+                                        <nobr>Howard Qian</nobr>, <nobr>Yangxiao Lu</nobr>, <nobr>Kejia Ren</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Ninad Khargonkar</nobr>, <nobr>Yu Xiang</nobr>, <nobr>Kaiyu Hang</nobr>
+                                        <br>
+                                        <em>IEEE International Conference on Robotics and Automation (ICRA) (To appear)</em>
+                                    </p>
+                                    <p>
+                                        <a href="#qian_riseg_nodatebibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
+                                        <a href="#qian_riseg_nodateabstract" data-toggle="collapse">Abstract</a> 
+                                    </p>
+                                    <div id="qian_riseg_nodateabstract" class="collapse">
+                                        <div class="well">
+                                            <p>In order to successfully perform manipulation tasks in new environments, such as grasping, robots must be proficient in segmenting unseen objects from the background and/or other objects. Previous works perform unseen object instance segmentation (UOIS) by training deep neural networks on large-scale data to learn RGB/RGB-D feature embeddings, where cluttered environments often result in inaccurate segmentations. We build upon these methods and introduce a novel approach to correct inaccurate segmentation, such as under-segmentation, of static image-based UOIS masks by using robot interaction and a designed body frame-invariant feature. We demonstrate that the relative linear and rotational velocities of frames randomly attached to rigid bodies due to robot interactions can be used to identify objects and accumulate corrected object-level segmentation masks. By introducing motion to regions of segmentation uncertainty, we are able to drastically improve segmentation accuracy in an uncertainty-driven manner with minimal, non-disruptive interactions (ca. 2-3 per scene). We demonstrate the effectiveness of our proposed interactive perception pipeline in accurately segmenting cluttered scenes by achieving an average object segmentation accuracy rate of $80.7 \%$, an increase of $28.2 \%$ when compared with other state-of-the-art UOIS methods.</p>
+                                        </div>
+                                        <p><a href="#qian_riseg_nodateabstract" data-toggle="collapse">Close</a></p>
+                                    </div>
+                                    <div id="qian_riseg_nodatebibtex" class="collapse">
+                                        <div class="well">
+                                            <pre>@article{qian_riseg_nodate,
+    title = {{RISeg}: Robot Interactive Object Segmentation via Body Frame-Invariant Features},
+    author = {Qian, Howard and Lu, Yangxiao and Ren, Kejia and Wang, Gaotian and Khargonkar, Ninad and Xiang, Yu and Hang, Kaiyu},
+    langid = {english},
+    file = {Qian et al. - RISeg Robot Interactive Object Segmentation via B.pdf:C\:\\Users\\Vector Wang\\Zotero\\storage\\AH2HDVLC\\Qian et al. - RISeg Robot Interactive Object Segmentation via B.pdf:application/pdf},
+}
+                                              </pre>
+                                        </div>
+                                    </div>
+                                </dd>
+                                <h3 class="col-lg-12 col-xl-1"></h3>
                                 <dt class="col-1" style="text-align:right;">C3.</dt>
                                 <dd class="col-md-11 col-xl-10">
                                     <p>
@@ -432,11 +472,30 @@
                             </dl>
                         </div>
                     </div>
-
+                    <hr>
 
                     <!-- <h1>Work Experience</h1>-->
                     <a class="anchor" id="teaching"></a> 
                     <h1>Teaching 🧑‍🏫</h1>
+                    <div style="padding: 10px">
+                        <dl>
+                            <dd>Teaching Assistant for <a href="https://piazza.com/class/llmhssuxiuj3i2"><b>Algorithmic Robotics</b></a> | Fall 2023
+                                <br>
+                                <em><small>COMP/ELEC/MECH 450/550 at Rice University</small></em>
+                            </dd>
+                            <dd>Teaching Assistant for <a href="https://www.cs.rice.edu/~vo9/deep-vislang/"><b>Deep Learning for Vision & Language</b></a> | Spring 2023
+                                <br>
+                                <em><small>COMP 646 at Rice University</small></em>
+                            </dd>
+                            <dd>In-lab Teaching Assistant for <a href="https://jxzy.ustc.edu.cn/#"><b>College Physics-Comprehensive Experimentation</b></a> | Fall 2020-2022
+                                <br>
+                                <em><small>at University of Science and Technology of China</small></em>
+                            </dd>
+                        </dl>
+                    </div>
+                    <hr>
+                    <a class="anchor" id="Hobbies"></a> 
+                    <h1>Hobbies 🏔️</h1>
                     <div style="padding: 10px">
                         <dl>
                             <dd>Teaching Assistant for <a href="https://piazza.com/class/llmhssuxiuj3i2"><b>Algorithmic Robotics</b></a> | Fall 2023
