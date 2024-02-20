@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600i" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
         <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-        <link rel="icon" href="🦾">
+        <link rel="icon" href="images/robot.svg" type="image/png">
         <style>
          #sticky-sidebar {
              position:fixed;
@@ -95,7 +95,7 @@
                         <a class="nav-link" href="#teaching"><i class="fa fa-chalkboard"></i> Teaching</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Hobbies"><i class="fa fa-mountain"></i> Hobbies</a>
+                        <a class="nav-link" href="#Hobbies"><i class="fa fa-mountain"></i> Life</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://robotpilab.github.io/"><i class="fa fa-robot"></i> Lab</a>
@@ -232,7 +232,7 @@
                                 </div>
                                 <!-- Video Column -->
                                 <div class="col-md-6">
-                                    <video width="360" height="270" controls>
+                                    <video width="420" height="240" controls>
                                         <source src="videos/UNO_Push.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
@@ -241,8 +241,7 @@
                             <div class="row">
                                 <!-- Project Column -->
                                 <div class="col-md-6">
-                                    <dt style="font-size: 1.12em;">Caging in Time for Robust Object Manipulation </dt>
-                                    <dt style="font-size: 1.12em;"> and a Case Study on Planar Pushing</dt>
+                                    <dt style="font-size: 1.12em;">Funnel for Robust Object Manipulation </dt>
                                     <ul>
                                         <li>A system motion model that predicts the propagation of the Potential Configuration Set over time and an algorithm that can generate robot motions to construct caging-configurations in time for robust manipulation that can be modeled for general manipulation systems.</li>
                                         <li>Instantiated on a planar pushing problem where manipulation tasks can be robustly executed in an open-loop manner without physical and geometric properties of the object known a priori</li>
@@ -253,7 +252,11 @@
                                     <img src   = "images/122.gif"
                                      class = "img-fluid full-width"
                                      style = "box-shadow: 2px 4px 4px 0px"
-                                     alt   = "A picture of me from February 2022.">
+                                     alt   = "Spiderman">
+                                     <img src   = "images/Rice.gif"
+                                     class = "img-fluid full-width"
+                                     style = "box-shadow: 2px 4px 4px 0px"
+                                     alt   = "Spiderman">
                                 </div>
                             </div>
                             
@@ -495,32 +498,63 @@
                     </div>
                     <hr>
                     <a class="anchor" id="Hobbies"></a> 
-                    <h1>Hobbies 🏔️</h1>
-                    <div style="padding: 10px">
-                        <dl>
-                            <dd>Teaching Assistant for <a href="https://piazza.com/class/llmhssuxiuj3i2"><b>Algorithmic Robotics</b></a> | Fall 2023
-                                <br>
-                                <em><small>COMP/ELEC/MECH 450/550 at Rice University</small></em>
-                            </dd>
-                            <dd>Teaching Assistant for <a href="https://www.cs.rice.edu/~vo9/deep-vislang/"><b>Deep Learning for Vision & Language</b></a> | Spring 2023
-                                <br>
-                                <em><small>COMP 646 at Rice University</small></em>
-                            </dd>
-                            <dd>In-lab Teaching Assistant for <a href="https://jxzy.ustc.edu.cn/#"><b>College Physics-Comprehensive Experimentation</b></a> | Fall 2020-2022
-                                <br>
-                                <em><small>at University of Science and Technology of China</small></em>
-                            </dd>
-                        </dl>
+                    <h1>Life 🏔️</h1>
+                    We bring robots to life, but life is more than robots.
+                    <div style="display: flex; justify-content: space-around;">
+                        <div class="slider" style="display: flex; justify-content: center; align-items: center; position: relative; width: 500px; height: 600px;">
+                            <img id="slide1" src="images/3.jpg" style="position: absolute; transition: opacity 1s; opacity: 1;max-height: 95%;">
+                            <img id="slide2" src="images/4.jpg" style="position: absolute; transition: opacity 1s; opacity: 0; max-height: 95%;">
+                        </div>
+                        <div class="slider" style="display: flex; justify-content: center; align-items: center; position: relative; width: 500px; height: 600px;">
+                            <img id="slide3" src="images/1.jpg" style="position: absolute; transition: opacity 1s; opacity: 1;max-height: 95%;">
+                            <img id="slide4" src="images/2.jpg" style="position: absolute; transition: opacity 1s; opacity: 0; max-height: 95%;">
+                        </div>
                     </div>
+                    
+                    <script>
+                        var images = ["images/0.jpg", "images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg", "images/15.jpg", "images/16.jpg", "images/17.jpg", "images/18.jpg", "images/19.jpg", "images/20.jpg", "images/21.jpg", "images/22.jpg", "images/23.jpg", "images/24.jpg", "images/25.jpg", "images/26.jpg", "images/27.jpg", "images/28.jpg", "images/29.jpg",]; // replace with your images
+                        var index = 0;
+                    
+                        function slide(slide1Id, slide2Id) {
+                            var slide1 = document.getElementById(slide1Id);
+                            var slide2 = document.getElementById(slide2Id);
+                    
+                            slide1.src = images[index];
+                            slide2.src = images[(index + 1) % images.length];
+                    
+                            slide1.style.opacity = 1;
+                            slide2.style.opacity = 0;
+                    
+                            setTimeout(function() {
+                                slide2.style.opacity = 1;
+                                slide1.style.opacity = 0;
+                            }, 200);
+                    
+                            index = (index + 1) % images.length;
+                        }
+                    
+                        setInterval(function() {
+                            slide("slide1", "slide2");
+                            slide("slide3", "slide4");
+                        }, 3000); // change image every 3 seconds
+                    </script>
                 </div>
-
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
                 <div class="col-12 col-xs-4 col-md-3 col-lg-3 col-xl-2">
                     <div class="row">
                         <div class="col-3 col-xs-0 col-md-0 col-lg-0 col-xl-0">
                         </div>
                         <div class="col-6 col-xs-12 col-md-12 col-lg-12 col-xl-12">
                             <p>
-                                <img src   = "images/both.jpg"
+                                <img src   = "images/Gaotian.png"
                                      class = "img-fluid full-width"
                                      style = "box-shadow: 2px 4px 4px 0px"
                                      alt   = "A picture of me from February 2022.">
