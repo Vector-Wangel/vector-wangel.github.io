@@ -1,284 +1,236 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-        <meta name="description" content="Gaotian Wang">
-        <meta name="author" content="Gaotian Wang">
-        <title>Gaotian Wang</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600i" rel="stylesheet">
-        <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
-        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-        <link rel="icon" href="images/robot.svg" type="image/png">
-        <style>
-         #sticky-sidebar {
-             position:fixed;
-             max-width: 20%;
-         }
-         html {
-             height: 100%;
-             width : 100%;
-         }
-         body {
-             height     : 100%;
-             width      : 100%;
-             font-family: 'Trebuchet MS', sans-serif;
-             font-weight: 300;
-             padding-top: 4.5rem;
-         }
-         b {
-             font-weight: 500;
-         }
-         h1, h2, h3, .navbar-brand {
-             font-family: 'Zilla Slab', serif;
-             font-weight: 600;
-             color: #0f4c97;
-         }
-         h3 {
-         }
-         a {
-             color: #0f4c97;
-         }
-         a:hover {
-             color: #1d83ff;
-             text-decoration: none;
-         }
-         a.anchor {
-             display: block;
-             position: relative;
-             top: -70px;
-             visibility: hidden;
-         }
-         .title {
-             font-size: 110%;
-             font-style: italic;
-         }
-         .book {
-             font-size: 110%;
-         }
-         well {
-             margin: 0 auto;
-             width: 100%;
-         }
-         .bg-light {
-             background-color: rgba(213, 220, 255, 0.8) !important;
-         }
-        </style>
-    </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Gaotian Wang — robotics PhD student at Rice University, robust object manipulation.">
+<meta name="author" content="Gaotian Wang">
+<title>Gaotian Wang</title>
+<link rel="icon" href="images/robot.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+<style>
+:root{
+  --bg:#ffffff; --bg-soft:#f5f7fa; --card:#ffffff; --text:#3d4553; --ink:#101828; --muted:#6b7280; --line:#e2e6ed;
+  --accent:#00205b; --accent-hover:#1d3f7c; --accent-soft:#e9eef7; --gray:#7c7e7f; --me:#101828;
+  --serif:"Source Serif 4","Iowan Old Style",Georgia,serif; --sans:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --shadow:0 1px 2px rgba(16,24,40,.04),0 6px 18px rgba(16,24,40,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font:15.5px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+h1,h2,h3{font-family:var(--serif);color:var(--ink)}
+img,video{display:block;max-width:100%}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
 
-    <body data-spy="scroll" data-target=".navbar">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-            <a class="navbar-brand" href="#" style="font-size: 1.5em; color: #0f4c97">Gaotian Wang</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link current" href="#about"><i class="fa fa-child"></i> About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#news"><i class="fa fa-newspaper"></i> News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience"><i class="fa fa-school"></i> Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects"><i class="fa fa-code"></i> Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pubs"><i class="fa fa-pen"></i> Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#teaching"><i class="fa fa-chalkboard"></i> Teaching</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Hobbies"><i class="fa fa-mountain"></i> Life</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://robotpilab.github.io/"><i class="fa fa-robot"></i> Lab</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-12 col-xs-8 col-md-9 col-lg-9 col-xl-10 order-last" style="border: 20px solid transparent;">
-                    <a class="anchor" id="about"></a>
-                    <h1>About 🧑‍💻</h1>
-                    <div style="padding: 10px">
-                        <p>
-                            I am a graduate student at Rice University, focusing on robotic robust object manipulation
-                            in <a href="https://robotpilab.github.io/">Robot&Pi; lab</a>, under the direction of Professor
-                            <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a>.
-                        </p>
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:20px;height:60px}
+nav .brand{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--accent);letter-spacing:-.01em}
+nav .brand:hover{text-decoration:none}
+nav .links{margin-left:auto;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav .links a{position:relative;color:var(--ink);font-size:13.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:8px 11px;white-space:nowrap}
+nav .links a::after{content:"";position:absolute;left:11px;right:11px;bottom:2px;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .2s}
+nav .links a:hover,nav .links a.active{color:var(--accent);text-decoration:none}
+nav .links a:hover::after,nav .links a.active::after{transform:scaleX(1)}
 
-                        <p>
-                            I am currently a <nobr style="font-weight: bold;">Research Intern</nobr> at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a> (May &ndash; Aug. 2026), working on <nobr style="font-weight: bold;">long-horizon and robust agentic mobile robotic systems</nobr>.
-                        </p>
+section{padding:36px 0 8px}
+h2.sec{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gray);margin:0 0 16px;display:flex;align-items:center;gap:12px}
+h2.sec::after{content:"";flex:1;height:1px;background:var(--line)}
 
-                        <p>
-                            My recent interest lies in <nobr style="font-weight: bold;">robust nonprehensile manipulation</nobr>, where we propose <nobr style="font-weight: bold;">energy-based virtual temporal cages</nobr> and <nobr style="font-weight: bold;">funnels</nobr> for everyday tasks to achieve robust manipulation under all kinds of uncertainties and provides solutions to <nobr style="font-weight: bold;">close the Sim2real gap</nobr>.
-                            I am also interested in building <nobr style="font-weight: bold;">physics-aware multi-modal world models</nobr> that can predict the potential motions of objects to reach general robust manipulation, in scaling up robot learning with <nobr style="font-weight: bold;">web-scale data engines</nobr> that lift in-the-wild human videos into executable robot actions, and in <nobr style="font-weight: bold;">agentic robotic systems</nobr> that carry these skills into long-horizon real-world tasks.
-                        </p>
+/* hero */
+.hero{display:flex;gap:32px;align-items:flex-start;padding-top:40px}
+.hero img.me{width:150px;height:150px;border-radius:4px;object-fit:cover;object-position:center 20%;box-shadow:var(--shadow);flex:none}
+.hero h1{font-size:40px;font-weight:600;line-height:1.15;margin:0 0 4px;letter-spacing:-.02em}
+.hero .sub{color:var(--muted);margin:0 0 14px}
+.hero p{margin:0 0 10px;max-width:760px}
+.hero b{font-weight:600}
+.social{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border:1px solid var(--line);border-radius:2px;color:var(--accent);font-size:12.5px;font-weight:600;letter-spacing:.04em;background:var(--card)}
+.chip:hover{background:var(--accent);border-color:var(--accent);color:#fff;text-decoration:none}
 
-                        <p>
-                            More details can be found in my <a href="Gaotian_Wang_CV.pdf">curriculum vitae <i class="fa fa-file-pdf"></i></a>.
-                        </p>
-                    </div>
-                    <hr>
-                    <a class="anchor" id="news"></a>
-                    <h1>News 📰</h1>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>EgoInfinity released! <em><small>Jun. 2026</small></em></dt>
-                            <dd>
-                                <p><a href="https://rice-robotpi-lab.github.io/EgoInfinity/">EgoInfinity</a>, a web-scale 4D hand-object interaction data engine that automatically lifts in-the-wild internet videos into structured 4D interaction data for any-view robot retargeting and video-to-action robot learning, is now released.
-                                    <br>
-                                    <a href="https://arxiv.org/abs/2606.17385"><i class="fa fa-file-pdf"></i> Paper</a> <b>/ </b>
-                                    <a href="https://github.com/Rice-RobotPI-Lab/EgoInfinity"><i class="fab fa-github"></i> Code</a> <b>/ </b>
-                                    <a href="https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity"><i class="fa fa-database"></i> Dataset</a> <b>/ </b>
-                                    <a href="https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity"><i class="fa fa-play"></i> Interactive Demo</a>
-                                </p>
-                            </dd>
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>IROS 2026 <em><small>Jun. 2026</small></em></dt>
-                            <dd>
-                                <p><a href="#wang_manidreams_2026">ManiDreams: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics</a> is accepted to IROS 2026. Go take a look!
-                                </p>
-                            </dd>
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>NVIDIA <em><small>May. 2026</small></em></dt>
-                            <dd>
-                                <p>I started a research internship at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a>, working on long-horizon and robust agentic mobile robotic systems.
-                                </p>
-                            </dd>
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>RSS 2026 <em><small>May. 2026</small></em></dt>
-                            <dd>
-                                <p><a href="#ren_catch_2026">Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching</a> is accepted to RSS 2026. Go take a look!
-                                </p>
-                            </dd>
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>ManiDreams released! <em><small>Mar. 2026</small></em></dt>
-                            <dd>
-                                <p><a href="https://rice-robotpi-lab.github.io/ManiDreams/">ManiDreams</a>, an open-source modular framework for uncertainty-aware manipulation planning over intuitive physics models, is now released.
-                                </p>
-                            </dd>
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>IJRR <em><small>2025</small></em></dt>
-                            <dd>
-                                <p><a href="#wang_caging_2024">Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</a> is accepted to IJRR. GO take a look!
-                                </p>
-                            </dd>
+/* news */
+.news{list-style:none;margin:0;padding:0}
+.news li{display:grid;grid-template-columns:78px 1fr;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.5}
+.news li:last-child{border-bottom:0}
+.news time{color:var(--muted);font-size:12.5px;font-variant-numeric:tabular-nums;padding-top:1px}
+.news .tag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:0 7px;border-radius:2px;background:var(--accent-soft);color:var(--accent);margin-right:6px;vertical-align:1px}
+.news .more{display:none}
+.news.open .more{display:grid}
+.linkbtn{background:none;border:0;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:8px 0 0}
+.linkbtn:hover{text-decoration:underline}
 
-                    </dl>
-                    </div>
-                    <div style="padding: 10px">
-                    <dl>
-                        <dt>XLeRobot <em><small>Apr. 2025</small></em></dt>
-                            <dd>
-                                <p><a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a>, a fully open-sourced low-cost ($660) household dual-arm mobile robot for general manipulation, is now released.
-                                </p>
-                                <div class="text-center mt-3">
-                                    <img src="images/XLeRobot.png" alt="XLeRobot" class="img-fluid" style="max-width: 100%; height: auto;">
-                                    <p class="text-muted mt-2">XLeRobot: A low-cost dual-arm mobile manipulation platform</p>
-                                </div>
-                            </dd>
-                    </dl>
-                    </div>
-					
-                    <hr>
+/* projects carousel */
+.rail-wrap{position:relative}
+.rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 18px;margin:0 -20px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.rail::-webkit-scrollbar{height:8px}.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+.pcard{flex:0 0 300px;scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:4px;overflow:hidden;color:var(--text);box-shadow:var(--shadow);transition:transform .15s,border-color .15s;display:flex;flex-direction:column}
+.pcard:hover{transform:translateY(-3px);border-color:var(--accent);text-decoration:none}
+.pcard .media{aspect-ratio:16/10;background:var(--bg-soft);overflow:hidden}
+.pcard .media img,.pcard .media video{width:100%;height:100%;object-fit:cover}
+.pcard .body{padding:12px 14px 14px}
+.pcard h3{margin:0 0 2px;font-size:17px;letter-spacing:-.005em;display:flex;justify-content:space-between;gap:8px;align-items:center}
+.pcard h3 i{color:var(--muted);font-size:13px}
+.pcard p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+.railbtn{position:absolute;top:36%;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);box-shadow:var(--shadow);cursor:pointer;z-index:2;font-size:14px}
+.railbtn:hover{border-color:var(--accent);color:var(--accent)}
+.railbtn.l{left:-14px}.railbtn.r{right:-14px}
+@media(max-width:1060px){.railbtn{display:none}}
 
-                    <!-- Projects Section -->                
-                    <a class="anchor" id="projects"></a>
-                    <h1>Projects 🦾</h1>
-                    <div style="padding: 10px">
-                        <dl>
+/* publications */
+.filters{display:flex;gap:6px;margin:-4px 0 14px;flex-wrap:wrap}
+.filters button{border:1px solid var(--line);background:var(--card);color:var(--muted);font:inherit;font-size:13px;font-weight:500;padding:4px 12px;border-radius:999px;cursor:pointer}
+.filters button:hover{color:var(--text)}
+.filters button.on{background:var(--text);border-color:var(--text);color:var(--bg)}
+.pub{display:grid;grid-template-columns:200px 1fr;gap:18px;padding:16px 0;border-top:1px solid var(--line)}
+.pub:first-of-type{border-top:0}
+.pub .thumb{aspect-ratio:4/3;border-radius:4px;overflow:hidden;background:var(--bg-soft);border:1px solid var(--line)}
+.pub .thumb img,.pub .thumb video{width:100%;height:100%;object-fit:cover}
+.pub .thumb.ph{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px}
+.pub h3{margin:0 0 3px;font-size:16.5px;line-height:1.4;font-weight:600;letter-spacing:-.005em}
+.pub .au{font-size:13.5px;color:var(--muted);line-height:1.5}
+.pub .au b{color:var(--me);font-weight:600}
+.pub .ve{font-size:13px;margin-top:2px}
+.pub .ve .badge{display:inline-block;font-size:11px;font-weight:600;padding:0 7px;border-radius:5px;background:var(--bg-soft);color:var(--muted);margin-right:6px;border:1px solid var(--line)}
+.pub .ve em{font-style:normal;color:var(--text)}
+.pub .acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.pub .acts a,.pub .acts button{font:inherit;font-size:12px;font-weight:500;padding:2px 10px;border-radius:2px;border:1px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;display:inline-flex;gap:5px;align-items:center}
+.pub .acts a:hover,.pub .acts button:hover{border-color:var(--accent);color:var(--accent);text-decoration:none}
+.pub .acts button.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.pub .panel{display:none;margin-top:10px;padding:12px 14px;background:var(--bg-soft);border-radius:4px;font-size:13px;line-height:1.6}
+.pub .panel.show{display:block}
+.pub .panel pre{margin:0;white-space:pre-wrap;word-break:break-word;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.filters{display:flex;gap:6px;margin:0 0 6px;flex-wrap:wrap}
+.filters button{border:1px solid var(--line);background:var(--card);color:var(--muted);font:inherit;font-size:13px;font-weight:600;padding:5px 14px;border-radius:2px;cursor:pointer}
+.filters button:hover{color:var(--accent);border-color:var(--accent)}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.pub.hide{display:none}
+.pub.nothumb{grid-template-columns:1fr}
+h3.grp{font-size:20px;margin:26px 0 2px;letter-spacing:-.01em}
+.yr{font-size:13px;font-weight:600;color:var(--gray);letter-spacing:.08em;margin:14px 0 0}
+.pub .lab{color:var(--muted);font-weight:500;margin-right:8px;font-size:13px}
+.pub:first-of-type{border-top:1px solid var(--line)}
 
-                            <div class="row">
-                                <!-- Project Column -->
-                                <div class="col-md-6">
-                                    <dt style="font-size: 1.12em;">XLeRobot: A Practical Low-cost Household</dt>
-                                    <dt style="font-size: 1.12em;">Dual-Arm Mobile Robot for General Manipulation</dt>
-                                    <ul>
-                                        <li>XLeRobot = XL LeRobot = Lekiwi base + SO101 arm + IKEA cart + Anker power supply. $660 cost and less than 4 hours total assembly time.</li>
-                                        <li>Fully based on LeRobot, easy access to vast LeRobot code and AI models, with 5.3k+ GitHub stars, 580+ forks and a rapidly growing community.</li>
-                                    </ul>
-                                </div>
-                                <!-- Video Column -->
-                                <div class="col-md-6">
-                                    <video width="420" height="240" controls>
-                                        <source src="videos/Demo_0_1_0.mp4" type="video/mp4">
-                                        Your browser does not support the video tag.
-                                    </video>
-                                </div>
-                            </div>
-                            
-                            
-                        </dl>
-                    </div>
-                    <hr>
+/* experience */
+.exp{display:grid;grid-template-columns:1fr 1fr;gap:8px 40px}
+.exp h3{font-size:13px;color:var(--muted);font-weight:600;margin:12px 0 6px}
+.item{display:flex;justify-content:space-between;gap:12px;padding:6px 0;font-size:14px}
+.item .l{min-width:0}
+.item .l b{font-weight:600}
+.item .l small{display:block;color:var(--muted);font-size:12.5px;line-height:1.45}
+.item .r{color:var(--muted);font-size:12.5px;white-space:nowrap;padding-top:2px;font-variant-numeric:tabular-nums}
 
-                    <a class="anchor" id="pubs"></a>
-                    <h1>Publications 📰</h1>
+/* life */
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.strip img{height:210px;width:auto;border-radius:4px;scroll-snap-align:start;flex:none;background:var(--bg-soft)}
+.tagline{color:var(--muted);margin:0 0 12px;font-size:14px}
 
-                    <div style="padding: 10px">
-                        <a id="preprints" class="anchor"></a>
-                        <h2>Preprints / In Submission</h2>
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2026</h3>
+footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
-                                <dt class="col-1" style="text-align:right;">P2.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="wang_egoinfinity_2026"></a>
-                                            <p>
-                                                <font class="title">EgoInfinity: A Web-Scale 4D Hand-Object Interaction Data Engine for Any-View Robot Retargeting and Video-to-Action Robot Learning</font>
-                                                <br>
-                                                <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Kejia Ren</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Yiting Chen</nobr>, <nobr>Howard H. Qian</nobr>, <nobr>Podshara Chanrungmaneekul</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>arXiv preprint</em>
-                                            </p>
-                                            <p>
-                                                <a href="#wang_egoinfinity_2026bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#wang_egoinfinity_2026abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2606.17385"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://rice-robotpi-lab.github.io/EgoInfinity/"><i class="fa fa-globe"></i> Project</a> <b>/ </b>
-                                                <a href="https://github.com/Rice-RobotPI-Lab/EgoInfinity"><i class="fab fa-github"></i> Code</a> <b>/ </b>
-                                                <a href="https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity"><i class="fa fa-database"></i> Dataset</a> <b>/ </b>
-                                                <a href="https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity"><i class="fa fa-play"></i> Demo</a>
-                                            </p>
-                                            <div id="wang_egoinfinity_2026abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Internet videos constitute the largest reservoir of embodied human manipulation knowledge, yet converting arbitrary RGB footage into actionable robot training data remains a major bottleneck. Existing lab- or factory-collected datasets are narrow in scale and diversity, limiting open-world robot learning. Instead of proposing a static dataset, we introduce EgoInfinity, a universal 4D hand-object interaction data engine that enables web-scale data generation for robot retargeting and learning. EgoInfinity is a modular engine integrating perception, segmentation, reconstruction, interaction-aware refinement, and retargeting to automate this traditionally unscalable video-to-action problem without human-in-the-loop annotation. Its modular design lets the engine continuously benefit from advances in any incorporated component. With EgoInfinity, in-the-wild human manipulation videos are lifted into agent-agnostic, metric 4D hand-object representations, including hand trajectories, 6-DoF object poses, and contact-relevant states. Rather than naively connecting standalone components, EgoInfinity combines cross-module metric calibration with interaction-aware refinement to improve physical reliability, reducing drift and contact inconsistencies common in pure visual reconstruction. We further propose a novel motion retargeter that compiles the recovered 3D hand motions into executable joint trajectories for diverse robot morphologies, enabling video-to-action retargeting on any robot from arbitrary viewpoints and shot sizes (e.g., the human body is only partially visible). We validate EgoInfinity across perception fidelity, kinematic feasibility, contact consistency, cross-embodiment generalization, and real-robot skill acquisition (e.g., grasping, cutting, wiping, and pouring), demonstrating a scalable bridge from internet videos to executable robot behavior for open-world robot learning.</p>
-                                                </div>
-                                                <p><a href="#wang_egoinfinity_2026abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="wang_egoinfinity_2026bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@misc{wang_egoinfinity_2026,
+@media(max-width:720px){
+  .hero{flex-direction:column;gap:18px;padding-top:28px}
+  .hero img.me{width:112px;height:112px}
+  .hero h1{font-size:28px}
+  .pub{grid-template-columns:1fr}
+  .pub .thumb{max-width:320px}
+  .exp{grid-template-columns:1fr}
+  .pcard{flex-basis:260px}
+  
+  nav .links{margin-left:0}
+  .news li{grid-template-columns:1fr;gap:0}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Gaotian Wang</a>
+    <div class="links">
+      <a href="#about">About</a><a href="#news">News</a><a href="#projects">Projects</a><a href="#pubs">Publications</a><a href="#experience">Experience</a><a href="#teaching">Teaching</a><a href="https://robotpilab.github.io/">Lab&nbsp;<i class="fa fa-arrow-up-right-from-square" style="font-size:10px"></i></a>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+
+<section id="about" class="hero">
+  <img class="me" src="images/Gaotian_.jpg" alt="Gaotian Wang">
+  <div>
+    <h1>Gaotian Wang</h1>
+    <p class="sub">Ph.D. Student at Rice University &middot; Prev. Intern at NVIDIA</p>
+    <p>I work on <b>robust object manipulation</b> in the <a href="https://robotpilab.github.io/">Robot&Pi; Lab</a> at Rice, advised by <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a>. Previously (May&ndash;Aug. 2026), I was a research intern at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a>, working on <b>long-horizon, robust agentic mobile robotic systems</b>.</p>
+    <p>My recent focus is <b>robust nonprehensile manipulation</b>: energy-based virtual temporal cages and funnels that handle uncertainty and help <b>close the sim-to-real gap</b>. I am also interested in <b>physics-aware multi-modal world models</b>, scaling robot learning with <b>web-scale data engines</b> that lift in-the-wild human videos into robot actions, and <b>agentic robotic systems</b> for long-horizon real-world tasks.</p>
+    <div class="social">
+      <a class="chip" href="mailto:gwang@rice.edu"><i class="fa fa-envelope"></i> gwang<i class="fa fa-at fa-xs"></i>rice.edu</a>
+      <a class="chip" href="Gaotian_Wang_CV.pdf"><i class="fa fa-file-pdf"></i> CV</a>
+      <a class="chip" href="https://scholar.google.com/citations?user=RuGkkZ8AAAAJ&hl=en"><i class="fab fa-google-scholar"></i> Scholar</a>
+      <a class="chip" href="https://github.com/Vector-Wangel"><i class="fab fa-github"></i> GitHub</a>
+      <a class="chip" href="https://x.com/VectorWang2"><i class="fab fa-x-twitter"></i> X</a>
+      <a class="chip" href="https://www.linkedin.com/in/gaotian-wang/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <h2 class="sec">News</h2>
+  <ul class="news" id="newslist">
+    <li><time>Jun 2026</time><div><span class="tag">Release</span><a href="https://rice-robotpi-lab.github.io/EgoInfinity/">EgoInfinity</a>, a web-scale 4D hand-object interaction data engine that lifts in-the-wild internet videos into any-view robot retargeting and video-to-action learning. <a href="https://arxiv.org/abs/2606.17385">Paper</a> &middot; <a href="https://github.com/Rice-RobotPI-Lab/EgoInfinity">Code</a> &middot; <a href="https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity">Dataset</a> &middot; <a href="https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity">Demo</a></div></li>
+    <li><time>Jun 2026</time><div><span class="tag">Paper</span><a href="#wang_manidreams_2026">ManiDreams</a> is accepted to IROS 2026.</div></li>
+    <li><time>May 2026</time><div><span class="tag">Intern</span>Started a research internship at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a>, on long-horizon and robust agentic mobile robotic systems.</div></li>
+    <li><time>May 2026</time><div><span class="tag">Paper</span><a href="#ren_catch_2026">Zero-Shot Sim-to-Real Robot Learning: Reactive Catching</a> is accepted to RSS 2026.</div></li>
+    <li><time>Mar 2026</time><div><span class="tag">Release</span><a href="https://rice-robotpi-lab.github.io/ManiDreams/">ManiDreams</a>, an open-source modular framework for uncertainty-aware manipulation planning over intuitive physics models, is released.</div></li>
+    <li class="more"><time>2025</time><div><span class="tag">Paper</span><a href="#wang_caging_2024">Caging in Time</a> is accepted to IJRR.</div></li>
+    <li class="more"><time>Apr 2025</time><div><span class="tag">Release</span><a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a>, a fully open-source, low-cost ($660) household dual-arm mobile robot, is released.</div></li>
+  </ul>
+  <button class="linkbtn" id="newsbtn">Show older news</button>
+</section>
+
+<section id="projects">
+  <h2 class="sec">Projects</h2>
+  <div class="rail-wrap">
+    <button class="railbtn l" aria-label="Scroll left"><i class="fa fa-chevron-left"></i></button>
+    <button class="railbtn r" aria-label="Scroll right"><i class="fa fa-chevron-right"></i></button>
+    <div class="rail" id="rail">
+<a class="pcard" href="https://github.com/Vector-Wangel/XLeRobot"><div class="media"><video src="images/proj/xlerobot_card.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>XLeRobot<i class="fab fa-github"></i></h3><p>Low-cost ($660) household dual-arm mobile manipulator built on LeRobot. 5.3k+ GitHub stars.</p></div></a>
+<a class="pcard" href="https://x.com/VectorWang2/status/2109844687720697994"><div class="media"><video src="images/proj/dyna_card.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>Agentic Real2sim & RL WBC replicates from Dyna<i class="fab fa-x-twitter"></i></h3><p>Agentic real2sim plus an RL whole-body controller (PPO, 4096 parallel envs).</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/MuJoCo-GS-Web"><div class="media"><video src="images/web/mjgs.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>MuJoCo-GS-Web<i class="fab fa-github"></i></h3><p>Simulate and render MuJoCo in the browser with 3D Gaussian Splatting.</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/Fast-FoundationStereoPhysics"><div class="media"><video src="images/proj/ffsp.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>Fast-FoundationStereoPhysics<i class="fab fa-github"></i></h3><p>Real-time sim-based world model: Fast-FoundationStereo + SAM2 + Newton, zero-shot.</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/XLeKiwi"><div class="media"><img src="images/proj/kiwi.jpg" alt="" loading="lazy"></div><div class="body"><h3>XLeKiwi<i class="fab fa-github"></i></h3><p>Control, perception and visualization stack for a mobile manipulator on Jetson + ROS 2.</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/IsaacLab-Asset-FrankaUMI"><div class="media"><video src="images/web/umi.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>IsaacLab Franka-UMI<i class="fab fa-github"></i></h3><p>IsaacLab asset of the Franka Panda arm with UMI (FinRay) fingers.</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/Open-Spiral-Robots"><div class="media"><img src="images/proj/spiral.jpg" alt="" loading="lazy"></div><div class="body"><h3>Open Spiral Robots<i class="fab fa-github"></i></h3><p>Web visualization and design tool for SpiRob spiral soft robots.</p></div></a>
+
+    </div>
+  </div>
+</section>
+
+<section id="pubs">
+  <h2 class="sec">Publications</h2>
+  <div class="filters" id="filters">
+    <button class="on" data-f="all">All</button><button data-f="jour">Journal</button><button data-f="conf">Conference</button><button data-f="data">Data Engine</button><button data-f="robust">Robust Object Manipulation</button><button data-f="percep">Interactive Perception</button><button data-f="soft">Soft Robotics</button>
+  </div>
+  <div id="publist">
+<article class="pub" id="qian_robotok_2026" data-t="pre data">
+  <div class="thumb"><video src="images/web/robotok.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>RoboTok: A Scalable Data Engine for Internet Demonstration Video Retrieval and Dexterous Manipulation Learning</h3><div class="au">Howard Qian, Yiting Chen, Yunfei Xie, Kejia Ren, Podshara Chanrungmaneekul, <b>Gaotian Wang</b>, Bowen Wen, Chen Wei, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">arXiv 2026</span><em>arXiv preprint</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2609.03199"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://rice-robotpi-lab.github.io/RoboTok/"><i class="fa fa-globe"></i> Project</a><a href="https://github.com/Rice-RobotPI-Lab/RoboTok-Code"><i class="fab fa-github"></i> Code</a><a href="https://huggingface.co/Rice-RobotPI-Lab/robotok-public"><i class="fa fa-database"></i> Data</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and difficult to scale across the wide range of real-world tasks. To address this bottleneck, we introduce RoboTok, a scalable data engine that uses a query human manipulation video to retrieve manipulation-relevant internet demonstrations for training dexterous robot policies. Specifically, we learn a latent motion space from 3D hand trajectories expressed in estimated actor-centered reference frames. This representation enables manipulation behaviors to be compared across variations in camera viewpoint, scene appearance, and actor occlusions, while remaining compact enough for efficient indexing and retrieval over internet video collections. We evaluate RoboTok against existing robot-data retrieval approaches using retrieval metrics and downstream robot policy performance, showing that RoboTok retrieves more manipulation-relevant demonstrations and improves downstream task success. In real-world robot experiments, RoboTok-guided policies achieve a mean success improvement of 42.2 percentage points over the strongest baseline for each task, establishing hand-pose trajectory-aware retrieval as a scalable way to leverage continuously growing web video for robot learning.</div><div class="panel" data-k="bib"><pre>@article{qian2026robotok,
+  title   = {{RoboTok}: A Scalable Data Engine for Internet Demonstration Video Retrieval and Dexterous Manipulation Learning},
+  author  = {Qian, Howard and Chen, Yiting and Xie, Yunfei and Ren, Kejia and Chanrungmaneekul, Podshara and Wang, Gaotian and Wen, Bowen and Wei, Chen and Hang, Kaiyu},
+  journal = {arXiv preprint arXiv:2609.03199},
+  year    = {2026}
+}&#x27;,
+ </pre></div></div>
+</article>
+<article class="pub" id="wang_egoinfinity_2026" data-t="pre data">
+  <div class="thumb"><img src="images/egoinfinity.png" alt="" loading="lazy"></div>
+  <div><h3>EgoInfinity: A Web-Scale 4D Hand-Object Interaction Data Engine for Any-View Robot Retargeting and Video-to-Action Robot Learning</h3><div class="au"><b>Gaotian Wang</b>, Kejia Ren, Andrew S. Morgan, Yiting Chen, Howard H. Qian, Podshara Chanrungmaneekul, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">arXiv 2026</span><em>arXiv preprint</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2606.17385"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://rice-robotpi-lab.github.io/EgoInfinity/"><i class="fa fa-globe"></i> Project</a><a href="https://github.com/Rice-RobotPI-Lab/EgoInfinity"><i class="fab fa-github"></i> Code</a><a href="https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity"><i class="fa fa-database"></i> Dataset</a><a href="https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity"><i class="fa fa-play"></i> Demo</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Internet videos constitute the largest reservoir of embodied human manipulation knowledge, yet converting arbitrary RGB footage into actionable robot training data remains a major bottleneck. Existing lab- or factory-collected datasets are narrow in scale and diversity, limiting open-world robot learning. Instead of proposing a static dataset, we introduce EgoInfinity, a universal 4D hand-object interaction data engine that enables web-scale data generation for robot retargeting and learning. EgoInfinity is a modular engine integrating perception, segmentation, reconstruction, interaction-aware refinement, and retargeting to automate this traditionally unscalable video-to-action problem without human-in-the-loop annotation. Its modular design lets the engine continuously benefit from advances in any incorporated component. With EgoInfinity, in-the-wild human manipulation videos are lifted into agent-agnostic, metric 4D hand-object representations, including hand trajectories, 6-DoF object poses, and contact-relevant states. Rather than naively connecting standalone components, EgoInfinity combines cross-module metric calibration with interaction-aware refinement to improve physical reliability, reducing drift and contact inconsistencies common in pure visual reconstruction. We further propose a novel motion retargeter that compiles the recovered 3D hand motions into executable joint trajectories for diverse robot morphologies, enabling video-to-action retargeting on any robot from arbitrary viewpoints and shot sizes (e.g., the human body is only partially visible). We validate EgoInfinity across perception fidelity, kinematic feasibility, contact consistency, cross-embodiment generalization, and real-robot skill acquisition (e.g., grasping, cutting, wiping, and pouring), demonstrating a scalable bridge from internet videos to executable robot behavior for open-world robot learning.</div><div class="panel" data-k="bib"><pre>@misc{wang_egoinfinity_2026,
     title = {{EgoInfinity}: A Web-Scale 4D Hand-Object Interaction Data Engine for Any-View Robot Retargeting and Video-to-Action Robot Learning},
     author = {Wang, Gaotian and Ren, Kejia and Morgan, Andrew S. and Chen, Yiting and Qian, Howard H. and Chanrungmaneekul, Podshara and Hang, Kaiyu},
     year = {2026},
@@ -286,588 +238,121 @@
     archivePrefix = {arXiv},
     primaryClass = {cs.RO},
     url = {https://arxiv.org/abs/2606.17385}
-}</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/egoinfinity.png"
-                                                 class="img-fluid"
-                                                 alt="EgoInfinity demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-                                <dt class="col-1" style="text-align:right;">P1.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="wang_cagingdreams_2026"></a>
-                                            <p>
-                                                <font class="title">Caging in Dreams: Zero-shot Object Manipulation via Diffusion-based Task-Specific Intuitive Physics and In-Representation Domain Randomization</font>
-                                                <br>
-                                                <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Kejia Ren</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>Under review</em>
-                                            </p>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-
-                        <a id="journals" class="anchor"></a>
-                        <h2>Peer-Reviewed Journal Articles</h2>
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2025</h3>
-
-                    
-                                
-                                <dt class="col-1" style="text-align:right;">J4.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="wang_caging_2024"></a>
-                                            <p>
-                                                <font class="title">Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</font>
-                                                <br>
-                                                <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Kejia Ren</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>International Journal of Robotics Research (IJRR)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#2410.16481bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#2410.16481abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2410.16481"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="publications/Caging_in_Time_zh.pdf"><i class="fa fa-file-pdf"></i> 中文</a> <b>/ </b>
-                                                <a href="publications/Caging_in_Time_Poster.pdf"><i class="fa fa-file-image"></i> Poster</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=Ag_jTzazuSM"><i class="fa fa-video"></i> Video</a>
-                                            </p>
-                                            <div id="2410.16481abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Real-world object manipulation has been commonly challenged by physical uncertainties and perception limitations. Being an effective strategy, while caging configuration-based manipulation frameworks have successfully provided robust solutions, they are not broadly applicable due to their strict requirements on the availability of multiple robots, widely distributed contacts, or specific geometries of the robots or the objects. To this end, this work proposes a novel concept, termed Caging in Time, to allow caging configurations to be formed even if there is just one robot engaged in a task. This novel concept can be explained by an insight that even if a caging configuration is needed to constrain the motion of an object, only a small portion of the cage is actively manipulating at a time. As such, we can switch the configuration of the robot strategically so that by collapsing its configuration in time, we will see a cage formed and its necessary portion active whenever needed. We instantiate our Caging in Time theory on challenging quasistatic and dynamic manipulation tasks, showing that Caging in Time can be achieved in general state spaces including geometry-based and energy-based spaces. With extensive experiments, we show robust and accurate manipulation, in an open-loop manner, without requiring detailed knowledge of the object geometry or physical properties, nor realtime accurate feedback on the manipulation states. In addition to being an effective and robust open-loop manipulation solution, the proposed theory can be a supplementary strategy to other manipulation systems affected by uncertain or limited robot perception.</p>
-                                                </div>
-                                                <p><a href="#2410.16481abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="2410.16481bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@article{wang2025caging,
-                            title={Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception},
-                            author={Wang, Gaotian and Ren, Kejia and Morgan, Andrew S. and Hang, Kaiyu},
-                            journal={The International Journal of Robotics Research (IJRR)},
-                            year={2025}
-                        }
-                                                    </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/cage.gif" 
-                                                 class="img-fluid" 
-                                                 alt="Caging in Time demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-
-
-
-
-
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-
-                                <dt class="col-1" style="text-align:right;">J3.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="ren_objectcentric_2025"></a>
-                                            <p>
-                                                <font class="title">Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation</font>
-                                                <br>
-                                                <nobr>Kejia Ren</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Lydia E. Kavraki</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>The IEEE Transactions on Robotics (T-RO)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#ren2025objectcentricbibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#ren2025objectcentricabstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2410.00261"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/document/11176447"><i class="ai ai-doi"></i> Publisher</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=PV2Y5SLSZkQ"><i class="fa fa-video"></i> Video</a>
-                                            </p>
-                                            <div id="ren2025objectcentricabstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Nonprehensile actions such as pushing are crucial for addressing multi-object rearrangement problems. To date, existing nonprehensile solutions are all robot-centric, i.e., the manipulation actions are generated with robot-relevant intent and their outcomes are passively evaluated afterwards. Such pipelines are very different from human strategies and are typically inefficient. To this end, this work proposes a novel object-centric planning paradigm and develops the first object-centric planner for general nonprehensile rearrangement problems. By assuming that each object can actively move without being driven by robot interactions, the object-centric planner focuses on planning desired object motions, which are realized via robot actions generated online via a closed-loop pushing strategy. Through extensive experiments and in comparison with state-of-the-art baselines in both simulation and on a physical robot, we show that our object-centric paradigm can generate more intuitive and task-effective robot actions with significantly improved efficiency. In addition, we propose a benchmarking protocol to standardize and facilitate future research in nonprehensile rearrangement.</p>
-                                                </div>
-                                                <p><a href="#ren2025objectcentricabstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="ren2025objectcentricbibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@article{ren2025objectcentric,
-                            title={Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation},
-                            author={Ren, Kejia and Wang, Gaotian and Morgan, Andrew S. and Kavraki, Lydia E. and Hang, Kaiyu},
-                            journal={IEEE Transactions on Robotics (T-RO)},
-                            year={2025},
-                            url={https://ieeexplore.ieee.org/document/11176447}
-                        }</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/unosort.gif"
-                                                 class="img-fluid"
-                                                 alt="Object-Centric Planning demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-                                <dt class="col-1" style="text-align:right;">J2.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="ren_collision_2025"></a>
-                                            <p>
-                                                <font class="title">Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</font>
-                                                <br>
-                                                <nobr>Kejia Ren</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>IEEE Robotics and Automation Letters (RAL)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#ren2024collisionbibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#ren2024collisionabstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/pdf/2412.06983.pdf"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=NxHyLqYKbPY"><i class="fa fa-video"></i> Video</a>
-                                            </p>
-                                            <div id="ren2024collisionabstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Traditional robotic manipulation mostly focuses on collision-free tasks. In practice, however, many manipulation tasks (e.g., occluded object grasping) require the robot to intentionally collide with the environment to reach a desired task configuration. By enabling compliant robot motions, collisions between the robot and the environment are allowed and can thus be exploited, but more physical uncertainties are introduced. To address collision-rich problems such as occluded object grasping while handling the involved uncertainties, we propose a collision-inclusive planning framework that can transition the robot to a desired task configuration via roughly modeled collisions absorbed by Cartesian impedance control. By strategically exploiting the environmental constraints and exploring inside a manipulation funnel formed by task repetitions, our framework can effectively reduce physical and perception uncertainties. With real-world evaluations on both single-arm and dual-arm setups, we show that our framework is able to efficiently address various realistic occluded grasping problems where a feasible grasp does not initially exist.</p>
-                                                </div>
-                                                <p><a href="#ren2024collisionabstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="ren2024collisionbibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@article{ren2025collision,
-                                    title={Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions},
-                                    author={Ren, Kejia and Wang, Gaotian and Morgan, Andrew S. and Hang, Kaiyu},
-                                    journal={IEEE Robotics and Automation Letters (RAL)},
-                                    year={2025},
-                                    url={https://arxiv.org/abs/2412.06983}
-                                }</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/collision.gif" 
-                                                class="img-fluid" 
-                                                alt="Collision-inclusive Planning demonstration"
-                                                style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                        
-                        <div>
-                            <a class="anchor" id="9851517"></a>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2022</h3>
-                                <dt class="col-1" style="text-align:right;">J1.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <font class="title">A Reinforcement Learning Method for Motion Control With Constraints on an HPN Arm</font>
-                                                <br>
-                                                <nobr>Yinghao Gan</nobr>, <nobr>Peijin Li</nobr>, <nobr>Hao Jiang</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Yusong Jin</nobr>, <nobr>Xiaoping Chen</nobr>, and <nobr>Jianmin Ji</nobr>
-                                                <br>
-                                                <em>IEEE Robotics and Automation Letters (RAL)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#9851517bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#9851517abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9851517"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/abstract/document/9851517"><i class="ai ai-doi"></i> Publisher</a>
-                                            </p>
-                                            <div id="9851517abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Soft robotic arms have shown great potential toward applications to human daily lives, which is mainly due to their infinite passive degrees of freedom and intrinsic safety. There are tasks in lives that require the motion of the robot to meet some certain pose constraints that have not been implemented through the soft arm, like delivering a glass of water. Because the workspace of the soft arm is affected by the loads or interaction, it is difficult to implement this task through the motion planning method. In this letter, we propose a Q-learning based approach to address the problem, directly achieving motion control with constraints under loads and interaction without planning. We first generate a controller for the soft arm based on Q-learning, which can operate the arm while satisfying the pose constraints when the arm is neither loaded nor interacted with the environment. Then, we introduce a process that adjusts corresponding Q values in the controller, which allows the controller to operate the arm with an unknown load or interaction while still satisfying the pose constraints. We implement the approach on our soft arm, i.e., the Honeycomb Pneumatic Network (HPN) Arm. The experiments show that the approach is effective, even when the arm reached an untrained situation or even beyond the workspace under the interaction.</p>
-                                                </div>
-                                                <p><a href="#9851517abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="9851517bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@ARTICLE{9851517,
-    author={Gan, Yinghao and Li, Peijin and Jiang, Hao and Wang, Gaotian and Jin, Yusong and Chen, Xiaoping and Ji, Jianmin},
-    journal={IEEE Robotics and Automation Letters}, 
-    title={A Reinforcement Learning Method for Motion Control With Constraints on an HPN Arm}, 
-    year={2022},
-    volume={7},
-    number={4},
-    pages={12006-12013},
-    keywords={Motion control;Q-learning;Manipulators;Task analysis;Soft robotics;Load modeling;Data models;Machine learning for robot control;modeling;control;and learning for soft robots;soft robot applications},
-    doi={10.1109/LRA.2022.3196789}}
-                                              
-                                              </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/SoftRL.jpg" 
-                                                 class="img-fluid" 
-                                                 alt="HPN Arm demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                        <h2>Peer-Reviewed Conference Articles</h2>
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2026</h3>
-                                <dt class="col-1" style="text-align:right;">C8.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="wang_manidreams_2026"></a>
-                                            <p>
-                                                <font class="title">ManiDreams: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics</font>
-                                                <br>
-                                                <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Kejia Ren</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#wang_manidreams_2026bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2603.18336"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://rice-robotpi-lab.github.io/ManiDreams/"><i class="fa fa-globe"></i> Project</a> <b>/ </b>
-                                                <a href="https://github.com/Rice-RobotPI-Lab/ManiDreams"><i class="fab fa-github"></i> Code</a> <b>/ </b>
-                                                <a href="https://rice-robotpi-lab.github.io/ManiDreams/documentation.html"><i class="fa fa-book"></i> Docs</a>
-                                            </p>
-                                            <div id="wang_manidreams_2026bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@inproceedings{wang_manidreams_2026,
+}</pre></div></div>
+</article>
+<article class="pub" id="wang_manidreams_2026" data-t="conf robust">
+  <div class="thumb"><video src="images/web/MnD.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>ManiDreams: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics</h3><div class="au"><b>Gaotian Wang</b>, Kejia Ren, Andrew S. Morgan, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">IROS 2026</span><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2603.18336"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://rice-robotpi-lab.github.io/ManiDreams/"><i class="fa fa-globe"></i> Project</a><a href="https://github.com/Rice-RobotPI-Lab/ManiDreams"><i class="fab fa-github"></i> Code</a><a href="https://rice-robotpi-lab.github.io/ManiDreams/documentation.html"><i class="fa fa-book"></i> Docs</a><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="bib"><pre>@inproceedings{wang_manidreams_2026,
     title = {{ManiDreams}: An Open-Source Library for Robust Object Manipulation via Uncertainty-aware Task-specific Intuitive Physics},
     author = {Wang, Gaotian and Ren, Kejia and Morgan, Andrew S. and Hang, Kaiyu},
     booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
     year = {2026}
-}</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/MnD.gif"
-                                                 class="img-fluid"
-                                                 alt="ManiDreams demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-                                <dt class="col-1" style="text-align:right;">C7.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="ren_catch_2026"></a>
-                                            <p>
-                                                <font class="title">Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching</font>
-                                                <br>
-                                                <nobr>Kejia Ren</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Andrew S. Morgan</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>Robotics: Science and Systems (RSS)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#ren_catch_2026bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#ren_catch_2026abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2605.09789"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=-jifGtyr6zM"><i class="fa fa-video"></i> Video</a>
-                                            </p>
-                                            <div id="ren_catch_2026abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one instance per episode, offering very limited exposure to the variability of real-world dynamics. To this end, we propose Domain-Randomized Instance Set (DRIS), which represents and propagates a set of randomized instances simultaneously, providing richer approximation of uncertain dynamics and enabling policies to learn actions that account for multiple possible outcomes. Supported by theoretical analysis, we show that DRIS yields more robust policies and alleviates the need for real-world fine-tuning, even with a modest number of instances (e.g., 10). We demonstrate this on a challenging reactive catching task. Unlike traditional catching setups that use end-effectors designed to mechanically stabilize the object (e.g., curved or enclosing surfaces), our system uses a flat plate that offers no passive stabilization, making the task highly sensitive to noise and requiring rapid reactive motions. The learned policies exhibit strong robustness to uncertainties and achieve reliable zero-shot sim-to-real transfer.</p>
-                                                </div>
-                                                <p><a href="#ren_catch_2026abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="ren_catch_2026bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@inproceedings{ren_catch_2026,
+}</pre></div></div>
+</article>
+<article class="pub" id="ren_catch_2026" data-t="conf robust">
+  <div class="thumb"><video src="images/web/catch.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching</h3><div class="au">Kejia Ren, <b>Gaotian Wang</b>, Andrew S. Morgan, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">RSS 2026</span><em>Robotics: Science and Systems (RSS)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2605.09789"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://www.youtube.com/watch?v=-jifGtyr6zM"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one instance per episode, offering very limited exposure to the variability of real-world dynamics. To this end, we propose Domain-Randomized Instance Set (DRIS), which represents and propagates a set of randomized instances simultaneously, providing richer approximation of uncertain dynamics and enabling policies to learn actions that account for multiple possible outcomes. Supported by theoretical analysis, we show that DRIS yields more robust policies and alleviates the need for real-world fine-tuning, even with a modest number of instances (e.g., 10). We demonstrate this on a challenging reactive catching task. Unlike traditional catching setups that use end-effectors designed to mechanically stabilize the object (e.g., curved or enclosing surfaces), our system uses a flat plate that offers no passive stabilization, making the task highly sensitive to noise and requiring rapid reactive motions. The learned policies exhibit strong robustness to uncertainties and achieve reliable zero-shot sim-to-real transfer.</div><div class="panel" data-k="bib"><pre>@inproceedings{ren_catch_2026,
     title = {Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching},
     author = {Ren, Kejia and Wang, Gaotian and Morgan, Andrew S. and Hang, Kaiyu},
     booktitle = {Robotics: Science and Systems (RSS)},
     year = {2026}
-}</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/catch.gif"
-                                                 class="img-fluid"
-                                                 alt="Reactive Catching demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-
-                            </dl>
-                        </div>
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2025</h3>
-                                <dt class="col-1" style="text-align:right;">C6.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <a class="anchor" id="qian_rtriseg_2025"></a>
-                                            <p>
-                                                <font class="title">rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</font>
-                                                <br>
-                                                <nobr>Howard H. Qian</nobr>, <nobr>Yiting Chen</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Podshara Chanrungmaneekul</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#qian_rtriseg_2025bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#qian_rtriseg_2025abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2507.10776"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://youtu.be/--TtC88GT_A"><i class="fa fa-video"></i> Video</a>
-                                            </p>
-                                            <div id="qian_rtriseg_2025abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Successful execution of dexterous robotic manipulation tasks in new environments, such as grasping, depends on the ability to proficiently segment unseen objects from the background and other objects. Previous works in unseen object instance segmentation (UOIS) train models on large-scale datasets, which often leads to overfitting on static visual features. This dependency results in poor generalization performance when confronted with out-of-distribution scenarios. To address this limitation, we rethink the task of UOIS based on the principle that vision is inherently interactive and occurs over time. We propose a novel real-time interactive perception framework, rt-RISeg, that continuously segments unseen objects by robot interactions and analysis of a designed body frame-invariant feature (BFIF). We demonstrate that the relative rotational and linear velocities of randomly sampled body frames, resulting from selected robot interactions, can be used to identify objects without any learned segmentation model. This fully self-contained segmentation pipeline generates and updates object segmentation masks throughout each robot interaction without the need to wait for an action to finish. We showcase the effectiveness of our proposed interactive perception method by achieving an average object segmentation accuracy rate 27.5% greater than state-of-the-art UOIS methods. Furthermore, although rt-RISeg is a standalone framework, we show that the autonomously generated segmentation masks can be used as prompts to vision foundation models for significantly improved performance.</p>
-                                                </div>
-                                                <p><a href="#qian_rtriseg_2025abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="qian_rtriseg_2025bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@inproceedings{qian_rtriseg_2025,
+}</pre></div></div>
+</article>
+<article class="pub nothumb" id="wang_cagingdreams_2026" data-t="pre robust">
+  
+  <div><h3>Caging in Dreams: Zero-shot Object Manipulation via Diffusion-based Task-Specific Intuitive Physics and In-Representation Domain Randomization</h3><div class="au"><b>Gaotian Wang</b>, Kejia Ren, Andrew S. Morgan, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">Under review</span></div>
+  <div class="acts"></div></div>
+</article>
+<article class="pub" id="wang_caging_2024" data-t="jour robust">
+  <div class="thumb"><video src="images/web/cage.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception</h3><div class="au"><b>Gaotian Wang</b>, Kejia Ren, Andrew S. Morgan, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">IJRR 2025</span><em>International Journal of Robotics Research (IJRR)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2410.16481"><i class="fa fa-file-pdf"></i> PDF</a><a href="publications/Caging_in_Time_zh.pdf"><i class="fa fa-file-pdf"></i> 中文</a><a href="publications/Caging_in_Time_Poster.pdf"><i class="fa fa-file-image"></i> Poster</a><a href="https://www.youtube.com/watch?v=Ag_jTzazuSM"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Real-world object manipulation has been commonly challenged by physical uncertainties and perception limitations. Being an effective strategy, while caging configuration-based manipulation frameworks have successfully provided robust solutions, they are not broadly applicable due to their strict requirements on the availability of multiple robots, widely distributed contacts, or specific geometries of the robots or the objects. To this end, this work proposes a novel concept, termed Caging in Time, to allow caging configurations to be formed even if there is just one robot engaged in a task. This novel concept can be explained by an insight that even if a caging configuration is needed to constrain the motion of an object, only a small portion of the cage is actively manipulating at a time. As such, we can switch the configuration of the robot strategically so that by collapsing its configuration in time, we will see a cage formed and its necessary portion active whenever needed. We instantiate our Caging in Time theory on challenging quasistatic and dynamic manipulation tasks, showing that Caging in Time can be achieved in general state spaces including geometry-based and energy-based spaces. With extensive experiments, we show robust and accurate manipulation, in an open-loop manner, without requiring detailed knowledge of the object geometry or physical properties, nor realtime accurate feedback on the manipulation states. In addition to being an effective and robust open-loop manipulation solution, the proposed theory can be a supplementary strategy to other manipulation systems affected by uncertain or limited robot perception.</div><div class="panel" data-k="bib"><pre>@article{wang2025caging,
+    title={Caging in Time: A Framework for Robust Object Manipulation under Uncertainties and Limited Robot Perception},
+    author={Wang, Gaotian and Ren, Kejia and Morgan, Andrew S. and Hang, Kaiyu},
+    journal={The International Journal of Robotics Research (IJRR)},
+    year={2025}
+    }</pre></div></div>
+</article>
+<article class="pub" id="ren_objectcentric_2025" data-t="jour robust">
+  <div class="thumb"><video src="images/web/unosort.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation</h3><div class="au">Kejia Ren, <b>Gaotian Wang</b>, Andrew S. Morgan, Lydia E. Kavraki, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">T-RO 2025</span><em>The IEEE Transactions on Robotics (T-RO)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2410.00261"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://ieeexplore.ieee.org/document/11176447"><i class="ai ai-doi"></i> Publisher</a><a href="https://www.youtube.com/watch?v=PV2Y5SLSZkQ"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Nonprehensile actions such as pushing are crucial for addressing multi-object rearrangement problems. To date, existing nonprehensile solutions are all robot-centric, i.e., the manipulation actions are generated with robot-relevant intent and their outcomes are passively evaluated afterwards. Such pipelines are very different from human strategies and are typically inefficient. To this end, this work proposes a novel object-centric planning paradigm and develops the first object-centric planner for general nonprehensile rearrangement problems. By assuming that each object can actively move without being driven by robot interactions, the object-centric planner focuses on planning desired object motions, which are realized via robot actions generated online via a closed-loop pushing strategy. Through extensive experiments and in comparison with state-of-the-art baselines in both simulation and on a physical robot, we show that our object-centric paradigm can generate more intuitive and task-effective robot actions with significantly improved efficiency. In addition, we propose a benchmarking protocol to standardize and facilitate future research in nonprehensile rearrangement.</div><div class="panel" data-k="bib"><pre>@article{ren2025objectcentric,
+    title={Object-Centric Kinodynamic Planning for Nonprehensile Robot Rearrangement Manipulation},
+    author={Ren, Kejia and Wang, Gaotian and Morgan, Andrew S. and Kavraki, Lydia E. and Hang, Kaiyu},
+    journal={IEEE Transactions on Robotics (T-RO)},
+    year={2025},
+    url={https://ieeexplore.ieee.org/document/11176447}
+    }</pre></div></div>
+</article>
+<article class="pub" id="ren_collision_2025" data-t="jour robust">
+  <div class="thumb"><video src="images/web/collision.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions</h3><div class="au">Kejia Ren, <b>Gaotian Wang</b>, Andrew S. Morgan, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">RA-L 2025</span><em>IEEE Robotics and Automation Letters (RAL)</em></div>
+  <div class="acts"><a href="https://arxiv.org/pdf/2412.06983.pdf"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://www.youtube.com/watch?v=NxHyLqYKbPY"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Traditional robotic manipulation mostly focuses on collision-free tasks. In practice, however, many manipulation tasks (e.g., occluded object grasping) require the robot to intentionally collide with the environment to reach a desired task configuration. By enabling compliant robot motions, collisions between the robot and the environment are allowed and can thus be exploited, but more physical uncertainties are introduced. To address collision-rich problems such as occluded object grasping while handling the involved uncertainties, we propose a collision-inclusive planning framework that can transition the robot to a desired task configuration via roughly modeled collisions absorbed by Cartesian impedance control. By strategically exploiting the environmental constraints and exploring inside a manipulation funnel formed by task repetitions, our framework can effectively reduce physical and perception uncertainties. With real-world evaluations on both single-arm and dual-arm setups, we show that our framework is able to efficiently address various realistic occluded grasping problems where a feasible grasp does not initially exist.</div><div class="panel" data-k="bib"><pre>@article{ren2025collision,
+    title={Collision-inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions},
+    author={Ren, Kejia and Wang, Gaotian and Morgan, Andrew S. and Hang, Kaiyu},
+    journal={IEEE Robotics and Automation Letters (RAL)},
+    year={2025},
+    url={https://arxiv.org/abs/2412.06983}
+    }</pre></div></div>
+</article>
+<article class="pub" id="qian_rtriseg_2025" data-t="conf percep">
+  <div class="thumb"><video src="images/web/seg123.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>rt-RISeg: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding</h3><div class="au">Howard H. Qian, Yiting Chen, <b>Gaotian Wang</b>, Podshara Chanrungmaneekul, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">IROS 2025</span><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2507.10776"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://youtu.be/--TtC88GT_A"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Successful execution of dexterous robotic manipulation tasks in new environments, such as grasping, depends on the ability to proficiently segment unseen objects from the background and other objects. Previous works in unseen object instance segmentation (UOIS) train models on large-scale datasets, which often leads to overfitting on static visual features. This dependency results in poor generalization performance when confronted with out-of-distribution scenarios. To address this limitation, we rethink the task of UOIS based on the principle that vision is inherently interactive and occurs over time. We propose a novel real-time interactive perception framework, rt-RISeg, that continuously segments unseen objects by robot interactions and analysis of a designed body frame-invariant feature (BFIF). We demonstrate that the relative rotational and linear velocities of randomly sampled body frames, resulting from selected robot interactions, can be used to identify objects without any learned segmentation model. This fully self-contained segmentation pipeline generates and updates object segmentation masks throughout each robot interaction without the need to wait for an action to finish. We showcase the effectiveness of our proposed interactive perception method by achieving an average object segmentation accuracy rate 27.5% greater than state-of-the-art UOIS methods. Furthermore, although rt-RISeg is a standalone framework, we show that the autonomously generated segmentation masks can be used as prompts to vision foundation models for significantly improved performance.</div><div class="panel" data-k="bib"><pre>@inproceedings{qian_rtriseg_2025,
     title = {rt-{RISeg}: Real-Time Model-Free Robot Interactive Segmentation for Active Instance-Level Object Understanding},
     author = {Qian, Howard H. and Chen, Yiting and Wang, Gaotian and Chanrungmaneekul, Podshara and Hang, Kaiyu},
     booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
     year = {2025}
-}</pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/seg123.gif"
-                                                 class="img-fluid"
-                                                 alt="rt-RISeg demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                        <div>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2024</h3>
-                                <dt class="col-1" style="text-align:right;">C5.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <a class="anchor" id="wang_uno_2024"></a>
-                                                <font class="title">UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control</font>
-                                                <br>
-                                                <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Kejia Ren</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#wang_uno_2024bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#wang_uno_2024abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2403.13274"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=MLzGTxhKs6E&t=1s"> <i class="fa fa-video"></i> Video </a>
-                                            </p>
-                                            <div id="wang_uno_2024abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>Nonprehensile manipulation through precise pushing is an essential skill that has been commonly challenged by perception and physical uncertainties, such as those associated with contacts, object geometries, and physical properties. For this, we propose a unified framework that jointly addresses system modeling, action generation, and control. While most existing approaches either heavily rely on a priori system information for analytic modeling, or leverage a large dataset to learn dynamic models, our framework approximates a system transition function via non-parametric learning only using a small number of exploratory actions (ca. 10). The approximated function is then integrated with model predictive control to provide precise pushing manipulation. Furthermore, we show that the approximated system transition functions can be robustly transferred across novel objects while being online updated to continuously improve the manipulation accuracy. Through extensive experiments on a real robot platform with a set of novel objects and comparing against a state-of-the-art baseline, we show that the proposed unified framework is a light-weight and highly effective approach to enable precise pushing manipulation all by itself. Our evaluation results illustrate that the system can robustly ensure millimeter-level precision and can straightforwardly work on any novel object.</p>
-                                                </div>
-                                                <p><a href="#wang_uno_2024abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="wang_uno_2024bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@misc{wang_push_2024,
-                                title = {{UNO} Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control},
-                                url = {http://arxiv.org/abs/2403.13274},
-                                author = {Wang, Gaotian and Ren, Kejia and Hang, Kaiyu},
-                                date = {2024-03-19},
-                                eprint = {2403.13274 [cs]},
-                                publisher = {arXiv},
-                                langid = {english},
-                            }
-                                            </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/uno.gif" 
-                                                 class="img-fluid" 
-                                                 alt="UNO Push demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-                                <dt class="col-1" style="text-align:right;">C4.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <a class="anchor" id="qian_riseg_nodate"></a>
-                                                <font class="title">RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</font>
-                                                <br>
-                                                <nobr>Howard Qian</nobr>, <nobr>Yangxiao Lu</nobr>, <nobr>Kejia Ren</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Ninad Khargonkar</nobr>, <nobr>Yu Xiang</nobr>, <nobr>Kaiyu Hang</nobr>
-                                                <br>
-                                                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#qian_riseg_nodatebibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#qian_riseg_nodateabstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/abs/2403.01731"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://www.youtube.com/watch?v=K_FU310Jm1k"> <i class="fa fa-video"></i> Video </a>
-                                            </p>
-                                            <div id="qian_riseg_nodateabstract" class="collapse">
-                                                <div class="well">
-                                                    <p>In order to successfully perform manipulation tasks in new environments, such as grasping, robots must be proficient in segmenting unseen objects from the background and/or other objects. Previous works perform unseen object instance segmentation (UOIS) by training deep neural networks on large-scale data to learn RGB/RGB-D feature embeddings, where cluttered environments often result in inaccurate segmentations. We build upon these methods and introduce a novel approach to correct inaccurate segmentation, such as under-segmentation, of static image-based UOIS masks by using robot interaction and a designed body frame-invariant feature. We demonstrate that the relative linear and rotational velocities of frames randomly attached to rigid bodies due to robot interactions can be used to identify objects and accumulate corrected object-level segmentation masks. By introducing motion to regions of segmentation uncertainty, we are able to drastically improve segmentation accuracy in an uncertainty-driven manner with minimal, non-disruptive interactions (ca. 2-3 per scene). We demonstrate the effectiveness of our proposed interactive perception pipeline in accurately segmenting cluttered scenes by achieving an average object segmentation accuracy rate of $80.7 \%$, an increase of $28.2 \%$ when compared with other state-of-the-art UOIS methods.</p>
-                                                </div>
-                                                <p><a href="#qian_riseg_nodateabstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="qian_riseg_nodatebibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@article{qian_riseg_nodate,
+}</pre></div></div>
+</article>
+<article class="pub" id="wang_uno_2024" data-t="conf percep">
+  <div class="thumb"><video src="images/web/uno.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>UNO Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control</h3><div class="au"><b>Gaotian Wang</b>, Kejia Ren, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">IROS 2024</span><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2403.13274"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://www.youtube.com/watch?v=MLzGTxhKs6E&amp;t=1s"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Nonprehensile manipulation through precise pushing is an essential skill that has been commonly challenged by perception and physical uncertainties, such as those associated with contacts, object geometries, and physical properties. For this, we propose a unified framework that jointly addresses system modeling, action generation, and control. While most existing approaches either heavily rely on a priori system information for analytic modeling, or leverage a large dataset to learn dynamic models, our framework approximates a system transition function via non-parametric learning only using a small number of exploratory actions (ca. 10). The approximated function is then integrated with model predictive control to provide precise pushing manipulation. Furthermore, we show that the approximated system transition functions can be robustly transferred across novel objects while being online updated to continuously improve the manipulation accuracy. Through extensive experiments on a real robot platform with a set of novel objects and comparing against a state-of-the-art baseline, we show that the proposed unified framework is a light-weight and highly effective approach to enable precise pushing manipulation all by itself. Our evaluation results illustrate that the system can robustly ensure millimeter-level precision and can straightforwardly work on any novel object.</div><div class="panel" data-k="bib"><pre>@misc{wang_push_2024,
+    title = {{UNO} Push: Unified Nonprehensile Object Pushing via Non-Parametric Estimation and Model Predictive Control},
+    url = {http://arxiv.org/abs/2403.13274},
+    author = {Wang, Gaotian and Ren, Kejia and Hang, Kaiyu},
+    date = {2024-03-19},
+    eprint = {2403.13274 [cs]},
+    publisher = {arXiv},
+    langid = {english},
+    }</pre></div></div>
+</article>
+<article class="pub" id="qian_riseg_nodate" data-t="conf percep">
+  <div class="thumb"><video src="images/web/riseg.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>RISeg: Robot Interactive Object Segmentation via Body Frame-Invariant Features</h3><div class="au">Howard Qian, Yangxiao Lu, Kejia Ren, <b>Gaotian Wang</b>, Ninad Khargonkar, Yu Xiang, Kaiyu Hang</div>
+  <div class="ve"><span class="badge">ICRA 2024</span><em>IEEE International Conference on Robotics and Automation (ICRA)</em></div>
+  <div class="acts"><a href="https://arxiv.org/abs/2403.01731"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://www.youtube.com/watch?v=K_FU310Jm1k"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">In order to successfully perform manipulation tasks in new environments, such as grasping, robots must be proficient in segmenting unseen objects from the background and/or other objects. Previous works perform unseen object instance segmentation (UOIS) by training deep neural networks on large-scale data to learn RGB/RGB-D feature embeddings, where cluttered environments often result in inaccurate segmentations. We build upon these methods and introduce a novel approach to correct inaccurate segmentation, such as under-segmentation, of static image-based UOIS masks by using robot interaction and a designed body frame-invariant feature. We demonstrate that the relative linear and rotational velocities of frames randomly attached to rigid bodies due to robot interactions can be used to identify objects and accumulate corrected object-level segmentation masks. By introducing motion to regions of segmentation uncertainty, we are able to drastically improve segmentation accuracy in an uncertainty-driven manner with minimal, non-disruptive interactions (ca. 2-3 per scene). We demonstrate the effectiveness of our proposed interactive perception pipeline in accurately segmenting cluttered scenes by achieving an average object segmentation accuracy rate of $80.7 \%$, an increase of $28.2 \%$ when compared with other state-of-the-art UOIS methods.</div><div class="panel" data-k="bib"><pre>@article{qian_riseg_nodate,
     title = {{RISeg}: Robot Interactive Object Segmentation via Body Frame-Invariant Features},
     author = {Qian, Howard and Lu, Yangxiao and Ren, Kejia and Wang, Gaotian and Khargonkar, Ninad and Xiang, Yu and Hang, Kaiyu},
     langid = {english},
-    file = {Qian et al. - RISeg Robot Interactive Object Segmentation via B.pdf:C\:\\Users\\Vector Wang\\Zotero\\storage\\AH2HDVLC\\Qian et al. - RISeg Robot Interactive Object Segmentation via B.pdf:application/pdf},
-}
-                                              </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/riseg.gif" 
-                                                 class="img-fluid" 
-                                                 alt="RISeg demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-
-                                <h3 class="col-lg-12 col-xl-1"></h3>
-                                <dt class="col-1" style="text-align:right;">C3.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <a class="anchor" id="wang_kinematic_nodate"></a>
-                                                <font class="title">Kinematic Modeling and Control of a Soft Robotic Arm with Non-constant Curvature Deformation</font>
-                                                <br>
-                                                <nobr>Zhanchi Wang</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Xiaoping Chen</nobr>, and <nobr>Nikolaos M Freris</nobr>
-                                                <br>
-                                                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#wang_kinematic_nodatebibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/document/10611049"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="#wang_kinematic_nodateabstract" data-toggle="collapse">Abstract</a> 
-                                            </p>
-                                            <div id="wang_kinematic_nodateabstract" class="collapse">
-                                                <div class="well">
-                                                    <p>The passive compliance of soft robotic arms renders the development of accurate kinematic models and modelbased controllers challenging. The most widely used model in soft robotic kinematics assumes Piecewise Constant Curvature (PCC). However, PCC introduces errors when the robot is subject to external forces or even gravity. In this paper, we establish a three-dimensional (3D) kinematic representation of a soft robotic arm with pseudo universal and prismatic joints that are capable of capturing non-constant curvature deformations of the soft segments. We theoretically demonstrate that this constitutes a more general methodology than PCC. Simulations and experiments on the real robot attest to the superior modeling accuracy of our approach in 3D motions with unknown loads. The maximum position/rotation error of the proposed model is verified $6.7 \times / 4.6 \times$ lower than the PCC model considering gravity and external forces. Furthermore, we devise an inverse kinematic controller that is capable of positioning the tip, tracking trajectories, as well as performing interactive tasks in the 3D space.</p>
-                                                </div>
-                                                <p><a href="#wang_kinematic_nodateabstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="wang_kinematic_nodatebibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@article{wang_kinematic_nodate,
+}</pre></div></div>
+</article>
+<article class="pub" id="wang_kinematic_nodate" data-t="conf soft">
+  <div class="thumb"><video src="images/web/soft.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Kinematic Modeling and Control of a Soft Robotic Arm with Non-constant Curvature Deformation</h3><div class="au">Zhanchi Wang, <b>Gaotian Wang</b>, Xiaoping Chen, Nikolaos M Freris</div>
+  <div class="ve"><span class="badge">ICRA 2024</span><em>IEEE International Conference on Robotics and Automation (ICRA)</em></div>
+  <div class="acts"><a href="https://ieeexplore.ieee.org/document/10611049"><i class="fa fa-file-pdf"></i> PDF</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">The passive compliance of soft robotic arms renders the development of accurate kinematic models and modelbased controllers challenging. The most widely used model in soft robotic kinematics assumes Piecewise Constant Curvature (PCC). However, PCC introduces errors when the robot is subject to external forces or even gravity. In this paper, we establish a three-dimensional (3D) kinematic representation of a soft robotic arm with pseudo universal and prismatic joints that are capable of capturing non-constant curvature deformations of the soft segments. We theoretically demonstrate that this constitutes a more general methodology than PCC. Simulations and experiments on the real robot attest to the superior modeling accuracy of our approach in 3D motions with unknown loads. The maximum position/rotation error of the proposed model is verified $6.7 \times / 4.6 \times$ lower than the PCC model considering gravity and external forces. Furthermore, we devise an inverse kinematic controller that is capable of positioning the tip, tracking trajectories, as well as performing interactive tasks in the 3D space.</div><div class="panel" data-k="bib"><pre>@article{wang_kinematic_nodate,
         title = {Kinematic Modeling and Control of a Soft Robotic Arm with Non-constant Curvature Deformation},
         author = {Wang, Zhanchi and Wang, Gaotian and Chen, Xiaoping and Freris, Nikolaos},
         langid = {english},
-        file = {Wang et al. - Kinematic Modeling and Control of a Soft Robotic A.pdf:C\:\\Users\\Vector Wang\\Zotero\\storage\\2N79EKKQ\\Wang et al. - Kinematic Modeling and Control of a Soft Robotic A.pdf:application/pdf},
-    }
-                                              </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/soft.gif" 
-                                                 class="img-fluid" 
-                                                 alt="Soft Robot demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                        <div>
-                            <a class="anchor" id="10354732"></a>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2023</h3>
-                                <dt class="col-1" style="text-align:right;">C2.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <font class="title">Dynamic modeling and Control of a Soft Robotic Arm Using a Piecewise Universal Joint Model</font>
-                                                <br>
-                                                <nobr>Zhanchi Wang</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Xiaoping Chen</nobr>, and <nobr>Nikolaos M Freris</nobr>
-                                                <br>
-                                                <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#10354732bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#10354732abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10354732"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/abstract/document/10354732"><i class="ai ai-doi"></i> Publisher</a> <b>/ </b>
-                                                <a href="videos/0202_VD_fi.mp4" > <i class="fa fa-video"></i> Video </a>
-                                            </p>
-                                            <div id="10354732abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>The Piecewise Constant Curvature (PCC) assumption is the most widely used in the modeling and control of soft robots. However, a limitation of PCC models lies in accurately describing the deformation of a soft robot when executing dynamic tasks such as operating under gravity or interacting with humans. This paper introduces a new methodology for dynamic modeling and control of a multi-segment soft arm in the 3D space where each segment undergoes non-constant curvature deformations. In this framework, the soft manipulator is modeled as a series of segments, with each one represented by two stretchable links connected by a universal joint. Furthermore, we devise and analyze a controller for motion control in the configuration space with unknown load. The controller is implemented on a four-segment soft robotic manipulator and validated in a range of dynamic trajectory tracking tasks.</p>
-                                                </div>
-                                                <p><a href="#10354732abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="10354732bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@INPROCEEDINGS{10354732,
+    }</pre></div></div>
+</article>
+<article class="pub" id="wang_puj_2023" data-t="conf soft">
+  <div class="thumb"><video src="images/web/puj.mp4" muted loop playsinline preload="none" data-auto></video></div>
+  <div><h3>Dynamic modeling and Control of a Soft Robotic Arm Using a Piecewise Universal Joint Model</h3><div class="au">Zhanchi Wang, <b>Gaotian Wang</b>, Xiaoping Chen, Nikolaos M Freris</div>
+  <div class="ve"><span class="badge">ROBIO 2023</span><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em></div>
+  <div class="acts"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10354732"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://ieeexplore.ieee.org/abstract/document/10354732"><i class="ai ai-doi"></i> Publisher</a><a href="videos/0202_VD_fi.mp4"><i class="fa fa-video"></i> Video</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">The Piecewise Constant Curvature (PCC) assumption is the most widely used in the modeling and control of soft robots. However, a limitation of PCC models lies in accurately describing the deformation of a soft robot when executing dynamic tasks such as operating under gravity or interacting with humans. This paper introduces a new methodology for dynamic modeling and control of a multi-segment soft arm in the 3D space where each segment undergoes non-constant curvature deformations. In this framework, the soft manipulator is modeled as a series of segments, with each one represented by two stretchable links connected by a universal joint. Furthermore, we devise and analyze a controller for motion control in the configuration space with unknown load. The controller is implemented on a four-segment soft robotic manipulator and validated in a range of dynamic trajectory tracking tasks.</div><div class="panel" data-k="bib"><pre>@INPROCEEDINGS{10354732,
     author={Wang, Zhanchi and Wang, Gaotian and Chen, Xiaoping and Freris, Nikolaos M.},
     booktitle={2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
     title={Dynamic modeling and Control of a Soft Robotic Arm Using a Piecewise Universal Joint Model}, 
@@ -876,54 +361,28 @@
     number={},
     pages={1-6},
     keywords={Solid modeling;Three-dimensional displays;Deformation;Motion segmentation;Dynamics;Soft robotics;Aerospace electronics},
-    doi={10.1109/ROBIO58561.2023.10354732}}
-                                              
-                                              </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/puj.gif" 
-                                                 class="img-fluid" 
-                                                 alt="Soft Robot demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                        <div>
-                            <a class="anchor" id="9739524"></a>
-                            <dl class="row">
-                                <h3 class="col-lg-12 col-xl-1">2021</h3>
-                                <dt class="col-1" style="text-align:right;">C1.</dt>
-                                <dd class="col-md-11 col-xl-10">
-                                    <div class="row">
-                                        <!-- Main content column (4/5 width) -->
-                                        <div class="col-8">
-                                            <p>
-                                                <font class="title">A Q-learning Control Method for a Soft Robotic Arm Utilizing Training Data from a Rough Simulator</font>
-                                                <br>
-                                                <nobr>Peijin Li</nobr>, <nobr style="font-weight: bold;">Gaotian Wang</nobr>, <nobr>Hao Jiang</nobr>, <nobr>Yusong Jin</nobr>, <nobr>Yinghao Gan</nobr>, <nobr>Xiaoping Chen</nobr>, and <nobr>Jianmin Ji</nobr>
-                                                <br>
-                                                <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>
-                                            </p>
-                                            <p>
-                                                <a href="#9739524bibtex" data-toggle="collapse">Bibtex</a> <b>/ </b>
-                                                <a href="#9739524abstract" data-toggle="collapse">Abstract</a> <b>/ </b>
-                                                <a href="https://arxiv.org/pdf/2109.05795.pdf"><i class="fa fa-file-pdf"></i> PDF</a> <b>/ </b>
-                                                <a href="https://ieeexplore.ieee.org/abstract/document/9739524"><i class="ai ai-doi"></i> Publisher</a>
-                                            </p>
-                                            <div id="9739524abstract" class="collapse">
-                                                <div class="well">
-                                                    <p>It is challenging to control a soft robot, where reinforcement learning methods have been applied with promising results. However, due to the poor sample efficiency, reinforcement learning methods require a large collection of training data, which limits their applications. In this paper, we propose a Q-learning controller for a physical soft robot, in which pre-trained models using data from a rough simulator are applied to improve the performance of the controller. We implement the method on our soft robot, i.e., Honeycomb Pneumatic Network (HPN) arm. The experiments show that the usage of pre-trained models can not only reduce the amount of the real-world training data, but also greatly improve its accuracy and convergence rate.</p>
-                                                </div>
-                                                <p><a href="#9739524abstract" data-toggle="collapse">Close</a></p>
-                                            </div>
-                                            <div id="9739524bibtex" class="collapse">
-                                                <div class="well">
-                                                    <pre>@INPROCEEDINGS{9739524,
+    doi={10.1109/ROBIO58561.2023.10354732}}</pre></div></div>
+</article>
+<article class="pub" id="gan_hpn_2022" data-t="jour soft">
+  <div class="thumb"><img src="images/SoftRL.jpg" alt="" loading="lazy"></div>
+  <div><h3>A Reinforcement Learning Method for Motion Control With Constraints on an HPN Arm</h3><div class="au">Yinghao Gan, Peijin Li, Hao Jiang, <b>Gaotian Wang</b>, Yusong Jin, Xiaoping Chen, Jianmin Ji</div>
+  <div class="ve"><span class="badge">RA-L 2022</span><em>IEEE Robotics and Automation Letters (RAL)</em></div>
+  <div class="acts"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9851517"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://ieeexplore.ieee.org/abstract/document/9851517"><i class="ai ai-doi"></i> Publisher</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">Soft robotic arms have shown great potential toward applications to human daily lives, which is mainly due to their infinite passive degrees of freedom and intrinsic safety. There are tasks in lives that require the motion of the robot to meet some certain pose constraints that have not been implemented through the soft arm, like delivering a glass of water. Because the workspace of the soft arm is affected by the loads or interaction, it is difficult to implement this task through the motion planning method. In this letter, we propose a Q-learning based approach to address the problem, directly achieving motion control with constraints under loads and interaction without planning. We first generate a controller for the soft arm based on Q-learning, which can operate the arm while satisfying the pose constraints when the arm is neither loaded nor interacted with the environment. Then, we introduce a process that adjusts corresponding Q values in the controller, which allows the controller to operate the arm with an unknown load or interaction while still satisfying the pose constraints. We implement the approach on our soft arm, i.e., the Honeycomb Pneumatic Network (HPN) Arm. The experiments show that the approach is effective, even when the arm reached an untrained situation or even beyond the workspace under the interaction.</div><div class="panel" data-k="bib"><pre>@ARTICLE{9851517,
+    author={Gan, Yinghao and Li, Peijin and Jiang, Hao and Wang, Gaotian and Jin, Yusong and Chen, Xiaoping and Ji, Jianmin},
+    journal={IEEE Robotics and Automation Letters}, 
+    title={A Reinforcement Learning Method for Motion Control With Constraints on an HPN Arm}, 
+    year={2022},
+    volume={7},
+    number={4},
+    pages={12006-12013},
+    keywords={Motion control;Q-learning;Manipulators;Task analysis;Soft robotics;Load modeling;Data models;Machine learning for robot control;modeling;control;and learning for soft robots;soft robot applications},
+    doi={10.1109/LRA.2022.3196789}}</pre></div></div>
+</article>
+<article class="pub" id="li_qlearning_2021" data-t="conf soft">
+  <div class="thumb"><img src="images/softq.jpg" alt="" loading="lazy"></div>
+  <div><h3>A Q-learning Control Method for a Soft Robotic Arm Utilizing Training Data from a Rough Simulator</h3><div class="au">Peijin Li, <b>Gaotian Wang</b>, Hao Jiang, Yusong Jin, Yinghao Gan, Xiaoping Chen, Jianmin Ji</div>
+  <div class="ve"><span class="badge">ROBIO 2021</span><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em></div>
+  <div class="acts"><a href="https://arxiv.org/pdf/2109.05795.pdf"><i class="fa fa-file-pdf"></i> PDF</a><a href="https://ieeexplore.ieee.org/abstract/document/9739524"><i class="ai ai-doi"></i> Publisher</a><button data-p="abs"><i class="fa fa-align-left"></i> Abstract</button><button data-p="bib"><i class="fa fa-quote-right"></i> BibTeX</button></div><div class="panel" data-k="abs">It is challenging to control a soft robot, where reinforcement learning methods have been applied with promising results. However, due to the poor sample efficiency, reinforcement learning methods require a large collection of training data, which limits their applications. In this paper, we propose a Q-learning controller for a physical soft robot, in which pre-trained models using data from a rough simulator are applied to improve the performance of the controller. We implement the method on our soft robot, i.e., Honeycomb Pneumatic Network (HPN) arm. The experiments show that the usage of pre-trained models can not only reduce the amount of the real-world training data, but also greatly improve its accuracy and convergence rate.</div><div class="panel" data-k="bib"><pre>@INPROCEEDINGS{9739524,
     author={Li, Peijin and Wang, Gaotian and Jiang, Hao and Jin, Yusong and Gan, Yinghao and Chen, Xiaoping and Ji, Jianmin},
     booktitle={2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)}, 
     title={A Q-learning Control Method for a Soft Robotic Arm Utilizing Training Data from a Rough Simulator}, 
@@ -932,215 +391,78 @@
     number={},
     pages={839-845},
     keywords={Q-learning;Costs;Conferences;Biomimetics;Biological system modeling;Training data;Soft robotics},
-    doi={10.1109/ROBIO54168.2021.9739524}}
-                                              </pre>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- GIF column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="images/softq.jpg" 
-                                                 class="img-fluid" 
-                                                 alt="Soft Robot RL demonstration"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </div>
-                    </div>
-                    <hr>
+    doi={10.1109/ROBIO54168.2021.9739524}}</pre></div></div>
+</article>
+  </div>
+</section>
 
+<section id="experience">
+  <h2 class="sec">Experience</h2>
+  <div class="exp">
+    <div>
+      <h3>Education</h3>
+      <div class="item"><div class="l"><b>Rice University</b>, Ph.D. in Computer Science<small>Houston, TX &middot; Advisor: <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a></small></div><div class="r">2022 &ndash; Present</div></div>
+      <div class="item"><div class="l"><b>University of Science and Technology of China</b>, B.S. in Optical Engineering<small>Hefei, China &middot; Advisor: <a href="http://staff.ustc.edu.cn/~nfr/">Nikolaos M. Freris</a><br>Thesis: <em>A Randomized Kinodynamic Planner for Soft Robots based on Piecewise Universal Joint Model</em></small></div><div class="r">2018 &ndash; 2022</div></div>
+      <h3>Industry</h3>
+      <div class="item"><div class="l"><b><a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a></b>, Research Intern<small>Seattle, WA &middot; Long-horizon and robust agentic mobile robotic systems</small></div><div class="r">May &ndash; Aug. 2026</div></div>
+    </div>
+    <div>
+      <h3>Research</h3>
+      <div class="item"><div class="l"><b><a href="https://robotpilab.github.io/">Robot&Pi; Lab</a></b>, Graduate Student<small>Rice University &middot; Advisor: Kaiyu Hang</small></div><div class="r">2022 &ndash; Present</div></div>
+      <div class="item"><div class="l"><b><a href="http://staff.ustc.edu.cn/~nfr/Flyer%20-%20AIoT%20-%20English.pdf">AIoT Lab</a></b>, Undergraduate Researcher<small>USTC &middot; Advisor: Nikolaos M. Freris</small></div><div class="r">2021 &ndash; 2022</div></div>
+      <div class="item"><div class="l"><b><a href="https://www.epfl.ch/labs/rrl/">Reconfigurable Robotics Lab</a></b>, Guest Researcher<small>EPFL, Lausanne &middot; Supervisors: Fabio Zuliani, Jamie Paik</small></div><div class="r">Apr &ndash; Sep. 2021</div></div>
+      <div class="item"><div class="l"><b><a href="https://sites.google.com/view/softrobot">USTC Soft Robotics Lab</a></b>, Undergraduate Researcher<small>USTC &middot; Advisors: Hao Jiang, Xiaoping Chen</small></div><div class="r">2020 &ndash; 2021</div></div>
+    </div>
+  </div>
+</section>
 
-                    <!-- Experience Section -->
-                    <a class="anchor" id="experience"></a>
-                    <h1>Experience 🧗</h1>
-                    <div class="row">
-                        <!-- Education Column -->
-                        <div class="col-md-6">
-                            <h2>Education</h2>
-                            <div style="padding: 10px">
-                                <dt>Rice University | 2022 - Present</dt>
-                                <dt><em><small>Houston, TX</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Ph.D. in Computer Science</li>
-                                        <li>Advisor: <a href="https://hangkaiyu.github.io/">Dr. Kaiyu Hang</a></li>
-                                    </ul>
-                                </dd>
-                                <dt>University of Science and Technology of China</dt>
-                                <dt>USTC | 2018 - 2022</dt>
-                                <dt><em><small>Hefei, China</small></em></dt>
-                                <ul>
-                                    <li>B.S. in Optical Engineering</li>
-                                    <li>Thesis: <em>A Randomized Kinodynamic Planner for Soft Robots based on Piecewise Universal Joint Model</em></li>
-                                    <li>Advisor: <a href="http://staff.ustc.edu.cn/~nfr/">Dr. Nikolaos M. Freris</a></li>
-                                </ul>
-                            </div>
-                            <h2>Industry</h2>
-                            <div style="padding: 10px">
-                                <dt><a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a> | May.2026 - Aug.2026</dt>
-                                <dt><em><small>Seattle, WA</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Research Intern</li>
-                                        <li>Long-horizon and robust agentic mobile robotic systems</li>
-                                    </ul>
-                                </dd>
-                            </div>
-                        </div>
-                        <!-- Research Column -->
-                        <div class="col-md-6">
-                            <h2>Research</h2>
-                            <div style="padding: 10px">
-                                <dt><a href="https://robotpilab.github.io/">Robot∏ Lab</a> | Sep.2022 - Present</dt>
-                                <dt><em><small>Rice University, Houston, TX</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Graduate Student</li>
-                                        <li>Advisor: Dr. Kaiyu Hang</li>
-                                    </ul>
-                                </dd>
-                                <dt><a href="http://staff.ustc.edu.cn/~nfr/Flyer%20-%20AIoT%20-%20English.pdf">AIoT Lab</a> | Nov.2021 - Jun.2022</dt>
-                                <dt><em><small>USTC, Hefei, China</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Undergraduate Researcher</li>
-                                        <li>Advisor: Dr. Nikolaos M. Freris</li>
-                                    </ul>
-                                </dd>
-                                <dt><a href="https://www.epfl.ch/labs/rrl/">Reconfigurable Robotics Lab</a> | Apr.2021 - Sep.2021</dt>
-                                <dt><em><small>EPFL, Lausanne ,Switzerland</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Guest Researcher</li>
-                                        <li>Supervisor: Dr. Fabio Zuliani and Dr. Jamie Paik</li>
-                                    </ul>
-                                </dd>
-                                <dt><a href="https://sites.google.com/view/softrobot">USTC Soft Robotics Lab</a> | Aug.2020 - Oct.2021</dt>
-                                <dt><em><small>USTC, Hefei, China</small></em></dt>
-                                <dd>
-                                    <ul>
-                                        <li>Undergraduate Researcher</li>
-                                        <li>Advisor: Dr. Hao Jiang and Dr. Xiaoping Chen</li>
-                                    </ul>
-                                </dd>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
+<section id="teaching">
+  <h2 class="sec">Teaching</h2>
+  <div class="item"><div class="l"><b>Teaching Assistant</b>, <a href="https://piazza.com/class/llmhssuxiuj3i2">Algorithmic Robotics</a><small>COMP/ELEC/MECH 450/550, Rice University</small></div><div class="r">Fall 2023</div></div>
+  <div class="item"><div class="l"><b>Teaching Assistant</b>, <a href="https://www.cs.rice.edu/~vo9/deep-vislang/">Deep Learning for Vision &amp; Language</a><small>COMP 646, Rice University</small></div><div class="r">Spring 2023</div></div>
+  <div class="item"><div class="l"><b>In-lab Teaching Assistant</b>, <a href="https://jxzy.ustc.edu.cn/#">College Physics-Comprehensive Experimentation</a><small>University of Science and Technology of China</small></div><div class="r">Fall 2020&ndash;2022</div></div>
+</section>
 
+<footer><span>&copy; 2026 Gaotian Wang</span><a href="#top">Back to top &uarr;</a></footer>
+</main>
 
-                    <!-- <h1>Work Experience</h1>-->
-                    <a class="anchor" id="teaching"></a> 
-                    <h1>Teaching 🧑‍🏫</h1>
-                    <div style="padding: 10px">
-                        <dl>
-                            <dd>Teaching Assistant for <a href="https://piazza.com/class/llmhssuxiuj3i2"><b>Algorithmic Robotics</b></a> | Fall 2023
-                                <br>
-                                <em><small>COMP/ELEC/MECH 450/550 at Rice University</small></em>
-                            </dd>
-                            <dd>Teaching Assistant for <a href="https://www.cs.rice.edu/~vo9/deep-vislang/"><b>Deep Learning for Vision & Language</b></a> | Spring 2023
-                                <br>
-                                <em><small>COMP 646 at Rice University</small></em>
-                            </dd>
-                            <dd>In-lab Teaching Assistant for <a href="https://jxzy.ustc.edu.cn/#"><b>College Physics-Comprehensive Experimentation</b></a> | Fall 2020-2022
-                                <br>
-                                <em><small>at University of Science and Technology of China</small></em>
-                            </dd>
-                        </dl>
-                    </div>
-                    <hr>
-                    <a class="anchor" id="Hobbies"></a> 
-                    <h1>Life 🏔️🧗‍🏂🛹🏜️🗽⛹️🚀</h1>
-                    We bring robots to life, but life is more than robots.
-                    <div style="display: flex; justify-content: space-around;">
-                        <div class="slider" style="display: flex; justify-content: center; align-items: center; position: relative; width: 500px; height: 600px;">
-                            <img id="slide1" src="images/3.jpg" style="position: absolute; transition: opacity 1s; opacity: 1;max-height: 95%;">
-                            <img id="slide2" src="images/4.jpg" style="position: absolute; transition: opacity 1s; opacity: 0; max-height: 95%;">
-                        </div>
-                        <div class="slider" style="display: flex; justify-content: center; align-items: center; position: relative; width: 500px; height: 600px;">
-                            <img id="slide3" src="images/1.jpg" style="position: absolute; transition: opacity 1s; opacity: 1;max-height: 95%;">
-                            <img id="slide4" src="images/2.jpg" style="position: absolute; transition: opacity 1s; opacity: 0; max-height: 95%;">
-                        </div>
-                    </div>
-                    
-                    <script>
-                        var images = ["images/0.jpg", "images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg", "images/15.jpg", "images/16.jpg", "images/17.jpg", "images/18.jpg", "images/19.jpg", "images/20.jpg", "images/21.jpg", "images/22.jpg", "images/23.jpg", "images/24.jpg", "images/25.jpg", "images/26.jpg", "images/27.jpg", "images/28.jpg", "images/29.jpg",]; // replace with your images
-                        var index = 0;
-                    
-                        function slide(slide1Id, slide2Id) {
-                            var slide1 = document.getElementById(slide1Id);
-                            var slide2 = document.getElementById(slide2Id);
-                    
-                            slide1.src = images[index];
-                            slide2.src = images[(index + 1) % images.length];
-                    
-                            slide1.style.opacity = 1;
-                            slide2.style.opacity = 0;
-                    
-                            setTimeout(function() {
-                                slide2.style.opacity = 1;
-                                slide1.style.opacity = 0;
-                            }, 200);
-                    
-                            index = (index + 1) % images.length;
-                        }
-                    
-                        setInterval(function() {
-                            slide("slide1", "slide2");
-                            slide("slide3", "slide4");
-                        }, 3000); // change image every 3 seconds
-                    </script>
-                </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <hr>
-                <div class="col-12 col-xs-4 col-md-3 col-lg-3 col-xl-2">
-                    <div class="row">
-                        <div class="col-3 col-xs-0 col-md-0 col-lg-0 col-xl-0">
-                        </div>
-                        <div class="col-6 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                            <p>
-                                <img src   = "images/Gaotian_.jpg"
-                                     class = "img-fluid full-width"
-                                     alt   = "A picture of me from February 2024.">
-                            </p>
-                        </div>
-                        <div class="col-3 col-xs-0 col-md-0 col-lg-0 col-xl-0">
-                        </div>
-                        <div class="col-3 col-xs-0 col-md-0 col-lg-0 col-xl-0">
-                        </div>
-                        <div class="col-6 col-xs-12 col-md-12 col-lg-12 col-xl-12">
-                            <h2>Contact</h2>
-                            <dl class="row">
-                                <dd class="col-10">gwang<i class="fa fa-at fa-xs"></i>rice.edu<br></dd>
-                            </dl>
-                            <dl class="row">
-                                <dt class="col-3"><a href="https://www.linkedin.com/in/gaotian-wang/"><i class="fab fa-linkedin fa-2x"></i></a></dt>
-                                <dt class="col-3"><a href="https://github.com/Vector-Wangel"><i class="fab fa-github fa-2x"></i></a></dt>
-                                <dt class="col-3"><a href="https://scholar.google.com/citations?user=RuGkkZ8AAAAJ&hl=en"><i class="fab fa-google-scholar fa-2x"></i></a></dt>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <footer>
-                <p></p>
-                <p style="line-height:normal;">Website design inspired by <a href="https://zkingston.com/">Zak Kingston</a></p>
-            </footer>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+<script>
+// news toggle
+const nl=document.getElementById('newslist'),nb=document.getElementById('newsbtn');
+nb.onclick=()=>{nl.classList.toggle('open');nb.textContent=nl.classList.contains('open')?'Show less':'Show older news'};
+
+// project rail arrows
+const rail=document.getElementById('rail');
+document.querySelector('.railbtn.l').onclick=()=>rail.scrollBy({left:-640,behavior:'smooth'});
+document.querySelector('.railbtn.r').onclick=()=>rail.scrollBy({left:640,behavior:'smooth'});
+
+// publication filters
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('.pub').forEach(p=>p.classList.toggle('hide',b.dataset.f!=='all'&&!p.dataset.t.split(' ').includes(b.dataset.f)));
+});
+// abstract / bibtex panels
+document.getElementById('publist').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-p]'); if(!b) return;
+  const pub=b.closest('.pub'),panel=pub.querySelector('.panel[data-k="'+b.dataset.p+'"]');
+  const open=!panel.classList.contains('show');
+  pub.querySelectorAll('.panel').forEach(x=>x.classList.remove('show'));
+  pub.querySelectorAll('button[data-p]').forEach(x=>x.classList.remove('on'));
+  if(open){panel.classList.add('show');b.classList.add('on')}
+});
+// open pub when jumped to from news
+function hl(){const h=location.hash.slice(1);if(!h)return;const el=document.getElementById(h);if(el&&el.classList.contains('pub')){document.querySelector('#filters button').click();el.animate([{background:'var(--accent-soft)'},{background:'transparent'}],{duration:1800})}}
+addEventListener('hashchange',hl);hl();
+
+// play videos only when visible
+const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.play().catch(()=>{})}else v.pause()}),{rootMargin:'150px'});
+document.querySelectorAll('video[data-auto]').forEach(v=>io.observe(v));
+
+// nav highlight
+const secs=[...document.querySelectorAll('section[id]')],nav=[...document.querySelectorAll('nav .links a[href^="#"]')];
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)nav.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+secs.forEach(s=>so.observe(s));
+</script>
+</body>
 </html>
