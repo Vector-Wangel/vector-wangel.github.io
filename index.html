@@ -50,6 +50,8 @@ h2.sec::after{content:"";flex:1;height:1px;background:var(--line)}
 .hero .sub{color:var(--muted);margin:0 0 14px}
 .hero p{margin:0 0 10px;max-width:760px}
 .hero b{font-weight:600}
+.hero ul.focus{margin:0 0 10px;padding-left:20px;max-width:760px}
+.hero ul.focus li{margin:2px 0}
 .social{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .chip{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border:1px solid var(--line);border-radius:2px;color:var(--accent);font-size:12.5px;font-weight:600;letter-spacing:.04em;background:var(--card)}
 .chip:hover{background:var(--accent);border-color:var(--accent);color:#fff;text-decoration:none}
@@ -163,8 +165,14 @@ footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);colo
   <div>
     <h1>Gaotian Wang</h1>
     <p class="sub">Ph.D. Candidate at Rice University &middot; Prev. Intern at NVIDIA</p>
-    <p>I am a fifth-year Ph.D. student in Computer Science at Rice University, working in the <a href="https://robotpilab.github.io/">Robot&Pi; Lab</a> advised by <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a>. From May to August 2026, I was a research intern at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a>, where I built <b>agentic loco-manipulation systems</b> on the Unitree G1 humanoid and mobile manipulators. I also created <a href="https://github.com/Vector-Wangel/XLeRobot"><b>XLeRobot</b></a>, an open-source $660 dual-arm mobile home robot with 5.5k+ GitHub stars, and co-organize the Workshop on Agentic Robotics at CoRL 2026.</p>
-    <p>My research focuses on <b>robust and dexterous manipulation under uncertainty</b>. I design methods that stay reliable when perception and dynamics are imprecise, from energy-based <b>virtual temporal cages and funnels</b> (<a href="#wang_caging_2024">IJRR</a>) to <b>physics-aware world models</b>, uncertainty-aware simulation, and RL for <b>zero-shot sim-to-real</b> transfer (<a href="#wang_manidreams_2026">ManiDreams</a>, IROS 2026; <a href="#ren_catch_2026">reactive catching</a>, RSS 2026). I am also interested in <b>scaling robot learning with human video</b>, through data engines that lift in-the-wild videos into robot actions (<a href="#wang_egoinfinity_2026">EgoInfinity</a>), and in <b>agentic robotic systems</b> that deploy, evaluate, and continuously improve policies on real robots.</p>
+    <p>I am a fifth-year Ph.D. student at Rice University, advised by <a href="https://hangkaiyu.github.io/">Kaiyu Hang</a> in the <a href="https://robotpilab.github.io/">Robot&Pi; Lab</a>. Previously, I was a research intern at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a> (May&ndash;Aug. 2026), and I created <a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a>, an open-source $660 dual-arm mobile robot (5.5k+ GitHub stars).</p>
+    <p>My research focuses on <b>robust and dexterous manipulation</b> in the real world:</p>
+    <ul class="focus">
+      <li><b>Manipulation under uncertainty</b>: virtual temporal cages and funnels that bound object motion over time (<a href="#wang_caging_2024">IJRR</a>)</li>
+      <li><b>World models &amp; sim-to-real</b>: physics-aware world models and zero-shot sim-to-real RL (<a href="#wang_manidreams_2026">IROS 2026</a>, <a href="#ren_catch_2026">RSS 2026</a>)</li>
+      <li><b>Learning from human video</b>: data engines that lift in-the-wild videos into robot actions (<a href="#wang_egoinfinity_2026">EgoInfinity</a>)</li>
+      <li><b>Agentic robotics</b>: deploying and self-improving policies on real robots, from mobile manipulators to humanoids</li>
+    </ul>
     <div class="social">
       <a class="chip" href="mailto:gwang@rice.edu"><i class="fa fa-envelope"></i> gwang<i class="fa fa-at fa-xs"></i>rice.edu</a>
       <a class="chip" href="Gaotian_Wang_CV.pdf"><i class="fa fa-file-pdf"></i> CV</a>
@@ -179,6 +187,7 @@ footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);colo
 <section id="news">
   <h2 class="sec">News</h2>
   <ul class="news" id="newslist">
+    <li><time>Oct 2026</time><div><span class="tag">Event</span>Organizing the Workshop on Agentic Robotics at CoRL 2026.</div></li>
     <li><time>Jun 2026</time><div><span class="tag">Release</span><a href="https://rice-robotpi-lab.github.io/EgoInfinity/">EgoInfinity</a>, a web-scale 4D hand-object interaction data engine that lifts in-the-wild internet videos into any-view robot retargeting and video-to-action learning. <a href="https://arxiv.org/abs/2606.17385">Paper</a> &middot; <a href="https://github.com/Rice-RobotPI-Lab/EgoInfinity">Code</a> &middot; <a href="https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity">Dataset</a> &middot; <a href="https://huggingface.co/spaces/Rice-RobotPI-Lab/EgoInfinity">Demo</a></div></li>
     <li><time>Jun 2026</time><div><span class="tag">Paper</span><a href="#wang_manidreams_2026">ManiDreams</a> is accepted to IROS 2026.</div></li>
     <li><time>May 2026</time><div><span class="tag">Intern</span>Started a research internship at the <a href="https://research.nvidia.com/labs/srl/">NVIDIA Seattle Robotics Lab</a>, on long-horizon and robust agentic mobile robotic systems.</div></li>
@@ -196,7 +205,7 @@ footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);colo
     <button class="railbtn l" aria-label="Scroll left"><i class="fa fa-chevron-left"></i></button>
     <button class="railbtn r" aria-label="Scroll right"><i class="fa fa-chevron-right"></i></button>
     <div class="rail" id="rail">
-<a class="pcard" href="https://github.com/Vector-Wangel/XLeRobot"><div class="media"><video src="images/proj/xlerobot_card.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>XLeRobot<i class="fab fa-github"></i></h3><p>Low-cost ($660) household dual-arm mobile manipulator built on LeRobot. 5.3k+ GitHub stars.</p></div></a>
+<a class="pcard" href="https://github.com/Vector-Wangel/XLeRobot"><div class="media"><video src="images/proj/xlerobot_card.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>XLeRobot<i class="fab fa-github"></i></h3><p>Low-cost ($660) household dual-arm mobile manipulator built on LeRobot. 5.5k+ GitHub stars.</p></div></a>
 <a class="pcard" href="https://x.com/VectorWang2/status/2109844687720697994"><div class="media"><video src="images/proj/dyna_card.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>Agentic Real2sim & RL WBC replicates from Dyna<i class="fab fa-x-twitter"></i></h3><p>Agentic real2sim plus an RL whole-body controller (PPO, 4096 parallel envs).</p></div></a>
 <a class="pcard" href="https://github.com/Vector-Wangel/MuJoCo-GS-Web"><div class="media"><video src="images/web/mjgs.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>MuJoCo-GS-Web<i class="fab fa-github"></i></h3><p>Simulate and render MuJoCo in the browser with 3D Gaussian Splatting.</p></div></a>
 <a class="pcard" href="https://github.com/Vector-Wangel/Fast-FoundationStereoPhysics"><div class="media"><video src="images/proj/ffsp.mp4" muted loop playsinline preload="none" data-auto></video></div><div class="body"><h3>Fast-FoundationStereoPhysics<i class="fab fa-github"></i></h3><p>Real-time sim-based world model: Fast-FoundationStereo + SAM2 + Newton, zero-shot.</p></div></a>
