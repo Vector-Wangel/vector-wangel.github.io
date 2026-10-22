@@ -137,6 +137,20 @@ h3.grp{font-size:20px;margin:26px 0 2px;letter-spacing:-.01em}
 .strip img{height:210px;width:auto;border-radius:4px;scroll-snap-align:start;flex:none;background:var(--bg-soft)}
 .tagline{color:var(--muted);margin:0 0 12px;font-size:14px}
 
+.visits{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
+.visits:hover{color:var(--accent)}
+.visits .vsep{margin:0 4px}
+.vmodal{position:fixed;inset:0;z-index:100;background:rgba(16,24,40,.45);display:flex;align-items:center;justify-content:center;padding:20px}
+.vmodal[hidden]{display:none}
+.vbox{position:relative;background:var(--card);border-radius:4px;box-shadow:0 20px 50px rgba(16,24,40,.3);width:min(820px,100%);max-height:90vh;overflow:auto;padding:22px 22px 18px}
+.vclose{position:absolute;top:10px;right:14px;border:0;background:none;font-size:26px;line-height:1;color:var(--muted);cursor:pointer}
+.vclose:hover{color:var(--accent)}
+.vmap{min-height:120px;color:var(--muted);font-size:14px}
+.vmap svg{width:100%;height:auto;display:block}
+.vmap .land{fill:#eef1f5;stroke:#fff;stroke-width:.5}
+.vmap .land:hover{stroke:var(--accent);stroke-width:1}
+.vlist{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:10px;font-size:13px;color:var(--muted)}
+.vlist b{color:var(--ink);font-weight:600;margin-right:3px}
 footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 @media(max-width:720px){
@@ -437,9 +451,17 @@ footer{margin-top:40px;padding:24px 0 40px;border-top:1px solid var(--line);colo
   <div class="item"><div class="l"><b>In-lab Teaching Assistant</b>, <a href="https://jxzy.ustc.edu.cn/#">College Physics-Comprehensive Experimentation</a><small>University of Science and Technology of China</small></div><div class="r">Fall 2020&ndash;2022</div></div>
 </section>
 
-<footer><span>&copy; 2026 Gaotian Wang</span><a href="#top">Back to top &uarr;</a></footer>
+<footer><span>&copy; 2026 Gaotian Wang<span id="visits" hidden> &middot; <i class="fa fa-eye"></i> <span id="visitn"></span> visits</span></span><a href="#top">Back to top &uarr;</a></footer>
 </main>
 
+<div id="vmodal" class="vmodal" hidden role="dialog" aria-modal="true" aria-label="Visitor map">
+  <div class="vbox">
+    <button class="vclose" aria-label="Close">&times;</button>
+    <h2 class="sec">Visitors</h2>
+    <div id="vmap" class="vmap">Loading map&hellip;</div>
+    <div id="vlist" class="vlist"></div>
+  </div>
+</div>
 <script>
 // news toggle
 const nl=document.getElementById('newslist'),nb=document.getElementById('newsbtn');
@@ -477,6 +499,41 @@ document.querySelectorAll('video[data-auto]').forEach(v=>io.observe(v));
 const secs=[...document.querySelectorAll('section[id]')],nav=[...document.querySelectorAll('nav .links a[href^="#"]')];
 const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)nav.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
 secs.forEach(s=>so.observe(s));
+
+// visit counter + map (data from visits.json, refreshed daily by a GitHub Action)
+(function(){
+  const btn=document.getElementById('visits'); let data=null,drawn=false;
+  const modal=document.getElementById('vmodal'),body=document.getElementById('vmap');
+  const open=()=>{modal.hidden=false;document.body.style.overflow='hidden';draw()},close=()=>{modal.hidden=true;document.body.style.overflow=''};
+  const load=src=>new Promise((ok,no)=>{const s=document.createElement('script');s.src=src;s.onload=ok;s.onerror=no;document.head.appendChild(s)});
+  async function draw(){
+    if(drawn||!data)return; drawn=true;
+    try{
+      if(!window.d3) await load('https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js');
+      if(!window.topojson) await load('https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js');
+      const world=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(r=>r.json());
+      const feats=topojson.feature(world,world.objects.countries).features.filter(f=>f.properties.name!=='Antarctica');
+      const by=new Map(data.countries.map(c=>[String(c.id).padStart(3,'0'),c]));
+      const W=960,H=440,proj=d3.geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:feats}),path=d3.geoPath(proj);
+      const max=d3.max(data.countries,c=>c.count)||1;
+      const col=d3.scaleSqrt().domain([0,max]).range(['#c9d6ee','#00205b']);
+      const svg=d3.select(body).html('').append('svg').attr('viewBox',`0 0 ${W} ${H}`).attr('role','img').attr('aria-label','Map of visits by country');
+      svg.selectAll('path').data(feats).join('path').attr('d',path).attr('class','land')
+        .style('fill',f=>{const c=by.get(String(f.id).padStart(3,'0'));return c?col(c.count):null})
+        .append('title').text(f=>{const c=by.get(String(f.id).padStart(3,'0'));return c?`${c.name}: ${c.count}`:f.properties.name});
+      document.getElementById('vlist').innerHTML=data.countries.slice(0,6).map(c=>`<span><b>${c.count}</b> ${c.name}</span>`).join('');
+    }catch(e){body.textContent='Could not load the map.'}
+  }
+  fetch('visits.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
+    if(!d||!d.total)return; data=d;
+    document.getElementById('visitn').textContent=d.total.toLocaleString();btn.hidden=false;
+    if(location.hash==='#map')open();
+  }).catch(()=>{});
+  btn.onclick=open;
+  modal.addEventListener('click',e=>{if(e.target===modal||e.target.closest('.vclose'))close()});
+  addEventListener('keydown',e=>{if(e.key==='Escape'&&!modal.hidden)close()});
+})();
 </script>
+<script data-goatcounter="https://vectorwang.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
